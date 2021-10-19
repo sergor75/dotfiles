@@ -1,0 +1,51 @@
+mkcd()		# on crée un répertoire et s'y déplace
+{
+	mkdir "$1" && cd "$1"
+}
+
+cpcd()
+{
+	cp $1 $2 && cd $2
+}
+
+mvcd()
+{
+	mv $1 $2 && cd $2
+}
+
+# Creates an archive from given directory
+mktar() { tar cvf  "${1%%/}.tar"     "${1%%/}/"; }
+mktgz() { tar cvzf "${1%%/}.tgz"  "${1%%/}/"; }
+mktbz() { tar cvjf "${1%%/}.tar.bz2" "${1%%/}/"; }                                           
+mkzip() { 7z a -tzip -mx=9 "${1%%/}.zip" "${1%%/}/"; }
+mk7z() { 7z a -t7z -m0=lzma2 -mx=9 "${1%%/}.7z" "${1%%/}/"; }
+
+#Trouver dans les fichiers :
+findcontent () {
+	grep -IlRs "$1" .
+}
+
+# donne le code utf-8
+uni() { 
+    echo -n "$1" |hexdump |awk '{print $2}'
+}
+
+geolocation(){
+    curl -s ipinfo.io/$1 | tr -d '" ,{}'
+}
+
+# envoi de fichier
+transfer.sh() { 
+	if [ $# -eq 0 ]; then 
+		echo -e "No arguments specified. Usage:\necho transfer /tmp/test.md\ncat /tmp/test.md | transfer test.md"; 
+		return 1; 
+	fi 
+	tmpfile=$( mktemp -t transferXXXXXXX ); 
+	if tty -s; then 
+		basefile=$(basename "$1" | sed -e 's/[^a-zA-Z0-9._-]/-/g'); curl --progress-bar --upload-file "$1" "https://transfer.sh/$basefile" >> $tmpfile; 
+	else
+	curl --progress-bar --upload-file "-" "https://transfer.sh/$1" >> $tmpfile ; 
+	fi; 
+	cat $tmpfile; rm -f $tmpfile; 
+	echo ""
+} 

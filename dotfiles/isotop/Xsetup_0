@@ -1,0 +1,39 @@
+#!/bin/sh
+# $OpenBSD: Xsetup_0,v 1.3 2017/09/05 17:48:07 deraadt Exp $
+
+# normal bg color
+/usr/X11R6/bin/xrdb -merge /etc/X11/xenodm/Xresources.isotop
+bgcol="$(/usr/X11R6/bin/xrdb -query | grep background | cut -d':' -f2 |  tr -d [:space:])"
+/usr/X11R6/bin/xsetroot -solid "$bgcol" &
+
+WALLDIR=/usr/local/share/isotop/walls
+WALL="${WALLDIR}/loginbg.jpg"
+whereis xwallpaper > /dev/null
+if [ $? -eq 0 ]; then
+    /usr/local/bin/xwallpaper --zoom "${WALL}"
+else
+	# gm has issues with xcompmgr
+	/usr/local/bin/gm display -foreground "$bgcol" -window root -backdrop "${WALL}"
+fi
+
+#h=$(/usr/X11R6/bin/xwininfo -root|sed '/Height/!d;s/.* //')
+w=$(/usr/X11R6/bin/xwininfo -root|sed '/Width/!d;s/.* //')
+#ch=$(( $h / 2 ))
+cw=$(( $w / 2 ))
+# 1 char is 32 px wide
+## 8 char width
+clockw=$((8*14))
+# centered clock
+/usr/X11R6/bin/xclock -d -strftime "%T" -render -face "DejaVu Sans Mono-14" -geometry +$(($cw - $clockw/2))-5 -update 1 &
+# top left clock
+
+(
+xmessage -timeout 0 \
+    -geometry -11+-11\
+    -buttons "OFF":20 " " 
+ACTION=$?
+if [ $ACTION -eq 20 ]; then 
+     xsetroot -cursor_name watch
+    /sbin/shutdown -hp now
+fi
+) &

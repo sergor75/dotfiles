@@ -1,0 +1,519 @@
+cp /etc/dhclient.conf Backup/etc/
+cp /etc/unwind.conf Backup/etc/
+cat /etc/unwind.conf
+cp /etc/doas.conf Backup/etc/
+cp /etc/rc.local Backup/etc/
+cat /etc/rc.local
+cat /etc/rc.local.conf
+cat /etc/rc.conf.local 
+cp /etc/rc.conf.local Backup/etc
+man rcctl
+whence firefox
+doas pkg_add aspell-ru
+doas pkg_del aspell-fr
+doas pkg_delete aspell-fr
+cd /tmp/isotop/
+cat .profile
+cd
+cat .profile
+man rover
+whence rover
+rover
+rover
+rover
+mc
+svi /etc/X11/xenodm/Xresources.isotop 
+vi /etc/X11/xenodm/Xresources.isotop 
+grep login /etc/X11/xenodm/Xresources*
+doas vi /etc/X11/xenodm/Xresources.isotop 
+cat .kshrc
+pwd
+cat /etc/rc.local.isotop 
+cat /etc/unwind.conf 
+cat /etc/rc.local
+cat /etc/rc.shutdown 
+cat /etc/boot.conf 
+cat /etc/wsconsctl.conf 
+doas reboot
+cat .profile
+cat .kshrc
+cat /var/unwind.block 
+top
+systat
+crontab -l
+cat bin/checkbatt 
+cat /etc/rc.local
+cat /etc/rc.conf.local 
+df
+cat bin/chromium-cache.sh 
+ll /tmp/.cache/iridium/
+ll /tmp/.cache/
+vi bin/chromium-cache.sh 
+vi bin/chromium-cache.sh 
+doas chown sergor:sergor /tmp/.cache/iridium/
+ll /tmp/.cache
+chmod 700 /tmp/.cache/chromium/
+ll /tmp/.cache
+top
+cat .profile
+cat .start
+cat .first.sh
+man sctd
+cat /etc/ntpd.conf 
+ntpctl -s all
+ll -t
+ll -ta
+cat .xsession
+rm -rf dotfiles.old/
+ll bin/
+pfetch
+man isotop
+man -M /home/sergor/man/ isotop
+man isotop
+man -M ~/man isotop
+systat
+rover
+ranger
+rcctl get cups
+rcctl get cupsd
+rcctl get cupsd_browsed
+rcctl get cups_browsed
+netstat -an -f inet
+netstat -an -f inet |grep 631
+doas -s
+top
+top
+cat .dmenurc 
+ll bin
+ll bin/wobsd 
+less bin/wobsd 
+less bin/openbsdupgrade 
+less bin/networkcheck 
+bin/openbsdupgrade 
+cd isotop/isotop-files/
+ll
+cd src
+ll
+cd st/
+ll
+grep -ri scroll .
+less FAQ 
+ll
+grep -ri version .
+cat bin/openbsdupgrade 
+grep -ri telegram bin
+cat Backup/home/.xsession 
+cat .start 
+cat /usr/local/share/isotop/bin/rdmwall 
+cat bin/rdmwall 
+cat .start 
+vi .start 
+ll /etc/X11/xenodm/Xsetup_0 
+less /etc/X11/xenodm/Xsetup_0 
+less /etc/X11/xenodm/Xsetup_0 
+grep -ri pix /etc/X11/xenodm/
+cat .xsession
+cat /etc/doas.conf 
+doas vi /etc/doas.conf 
+rcctl get hotplugd
+man dmenu
+dmenu_run -v
+man dmenu
+dmenu -v
+dmenu_run
+doas -s
+crontab -l
+tail -f /var/log/cron
+tail -f /var/log/daemon
+less /var/log/daemon
+grep sctd /var/log/daemon |less
+sndioctl
+sndioctl |cut -d= -f 1
+man lsdesktop
+lsdesktop
+lsdesktop | less
+man lsdesktop
+ll /usr/share/applications/
+ll /usr/local/share/applications/
+ll /usr/local/share/applications/ | less
+grep telegram /usr/local/share/applications/ 
+grep -r iridium /usr/local/share/applications/ 
+ll $HOME/.local/share/applications/
+cat /home/sergor/.local/share/applications/chrome-clhhggbfdinjmjhajaheehoeibfljjno-Default.desktop 
+grep -i whatsapp .cwmrc
+grep -i app .cwmrc
+cat .cwmrc
+less .cwmrc
+ll -a /etc/skel
+diff -u .cwmrc /etc/skel/.cwmrc 
+less .cwmrc
+ddesktop
+man ddesktop
+man dmenu
+cat .start
+cat ~/.start
+cat /home/sergor/Backup/home/.xsession 
+vimdiff /home/sergor/Backup/home/.xsession ~/.start
+vi /home/sergor/Backup/home/.xsession 
+vi /home/sergor/.xsession
+vi .cwmrc
+pstree
+man slstatus
+man slstatus
+vi .start
+cat /etc/motd 
+touch .hushlogin
+vi .cwmrc
+vi .start 
+less .cwmrc
+less Backup/home/.cwmrc 
+less Backup/home/.xsession 
+fc-list | awk '!($1 = "")'
+less Backup/home/.cwmrc 
+vi .cwmrc
+vi .cwmrc
+tty
+pkill cwm
+\M-B\M^Tless Backup/home/.cwmrc 
+ls -l Backup/home/.cwmrc 
+less Backup/home/.cwmrc 
+vi .cwmrc
+man cwmrc
+man cwm
+sndioctl
+sndioctl
+sndioctl
+sndioctl
+sndioctl
+sndioctl
+sndioctl
+sndioctl
+\M-B\M-+
+sndioctl
+sndioctl
+sndioctl
+\M-B\M--
+\M-B\M-0
+sndioctl
+sndioctl
+sndioctl
+sndioctl
+sndioctl
+sndioctl
+sndioctl
+sndioctl
+whence dmpc
+less bin/dmpc
+less bin/dlocate 
+less bin/dloadbmk 
+vi .bookmarks 
+dloadbmk 
+less bin/dloadbmk 
+vi .start
+vi Backup/home/.xsession 
+vi .start
+vi .start
+vi .xsession
+less Backup/home/.cwmrc 
+less Backup/home/.xsession 
+vi .xsession
+vi .profile
+vi .xsession
+vi .start
+vi .cwmrc 
+less Backup/home/.cwmrc 
+cwm -n
+echo $?
+less Backup/home/.cwmrc 
+vi .xsession
+grep xclock Backup/home/.Xresources 
+grep xclock .Xresources 
+vi Backup/home/.xsession 
+vi .start
+vi .xsession
+vi Backup/home/.xsession 
+vi .xsession
+vi .profile
+vi Backup/home/.profile 
+vi .profile
+grep -r geo Backup/home/
+grep -r termbar Backup/home/
+less Backup/home/.Xresources 
+vi .Xresources 
+vi .cwmrc
+vi .Xresources 
+vi scripts/termbar 
+man printf
+sysctl -n hw.setperf
+sysctl -n hw.sensors.cpu0.temp0
+systat sensors
+sysctl hw
+sysctl -n hw.setperf
+sysctl -n hw.setperf
+sysctl -n hw.setperf
+sysctl -n hw.setperf
+sysctl -n hw.setperf
+sysctl -n hw.setperf
+sysctl -n hw.setperf
+sysctl -n hw.setperf
+sysctl -n hw.setperf
+sysctl -n hw.setperf
+top
+apm -l
+apm
+pkg_info -Q stepd
+whence stepd
+cd /tmp/.cache/iridium/
+pwd
+sysctl -n hw.sensors.cpu0.temp0
+ll
+top -1bd1
+man top
+pkill slstatus
+df
+df -h
+date '+%F %T"
+date '+%F %T'
+man date
+man strftime
+date '+%F %R'
+man strftime
+date '+%X %R'
+date '+%a %R'
+date '+%D %R'
+date '+%d %R'
+date '+%b %R'
+date '+%a %d %b %R'
+man printf
+man printf
+vi .cwmrc
+vi scripts/termbar 
+vi .cwmrc
+vi scripts/termbar 
+date '+%H'
+vi scripts/termbar 
+date "+%H"
+vi scripts/termbar 
+vi scripts/termbar 
+systat
+pkill termbar
+pgrep -fl termbar
+pkill 65096
+pgrep -fl termbar
+kill -9 65096
+scripts/termbar 
+vi .Xresources 
+vi .Xresources 
+vi .cwmrc
+vi .Xresources 
+vi .Xresources 
+ll /usr/share/applications/
+ll /usr/local/share/applications/
+ll /usr/local/share/applications/chromium-browser.desktop 
+xdg-settings get default-web-browser
+which chromium
+whence chromium
+which web
+pkg_info -L chromium
+ll /usr/local/bin/chrome
+less /usr/local/bin/chrome
+cat /usr/local/share/applications/chromium-browser.desktop 
+which chome
+which chrome
+whence chrome
+xdg-settings get default-web-browser
+xdg-settings set default-web-browser chromium-browser.desktop
+vi .profile
+. .profie
+pwd
+. .profile
+xdg-settings set default-web-browser chromium-browser.desktop
+xdg-settings get default-web-browser
+vi .profile
+less Backup/home/.profile 
+less Backup/home/.kshrc 
+less Backup/home/.profile 
+vi .profile
+xdg-settings get default-web-browser
+vi scripts/termbar 
+xwinfo
+xwininfo
+vi .cwmrc
+mc
+rover
+chromium-cache.sh save
+ll .cache
+cat bin/chromium-cache.sh 
+vi bin/chromium-cache.sh 
+vi .Xresources 
+vi .Xresources 
+vi .Xresources 
+whence xclockstatusbar
+less $(whence xclockstatusbar)
+xwininfo -root
+xwininfo
+xrandr
+xwininfo -root
+xwininfo
+vi .Xresources 
+xwininfo -root
+xwininfo -root | grep Width
+xwininfo 
+vi .Xresources 
+xwininfo
+vi .Xresources 
+xwininfo
+vi .Xresources 
+xwinifo
+xwininfo
+vi .Xresources 
+xwininfo
+vi .Xresources 
+vi .Xresources 
+vi .Xresources 
+xwininfo
+vi .cwmrc
+cat scripts/switchkb.sh 
+man notify-send 
+whence notify-send
+less /usr/local/bin/notify-send
+man -M /usr/share/man/ notify-send
+man ps
+man man
+env
+doas vi /etc/apm/suspend 
+doas vi /etc/apm/hibernate 
+rcctl get apmd
+rcctl restart apmd
+doas rcctl restart apmd
+cat /etc/rc.local.isotop 
+ll /var
+tail /var/unwind.block 
+host zzzzzzzzzzzzz.com
+head /var/unwind.block 
+host 0-day.us
+ping 0-day.us
+wc -l /var/unwind.block 
+cat /etc/unwind.conf 
+man unwind.conf
+unwindctl
+unwindctl status
+nslookup
+unwindctl status
+tail -f /var/log/messages
+host -v -t a eda.show
+cat /etc/resolv.conf
+cat /etc/dhclient.conf 
+man unwind.conf
+man unwind
+less isotop/isotop-user.sh 
+less isotop/isotop-root.sh 
+        echo "* Configure dhclient"
+        addline "prepend domain-name-servers 127.0.0.1;" /etc/dhclient.conf
+doas vi /etc/dhclient.conf 
+doas -s
+host -v -t a eda.show
+nslookup eda.show
+nslookup 
+dig @127.0.0.1 A eda.show
+tail -f /var/log/messages
+less /var/log/messages
+unwindctl
+man unwindctl
+doas unwindctl reload
+unwindctl status
+less isotop/isotop-root.sh 
+cat /etc/isotop.version 
+ping mxs.mail.ru
+man unwindctl
+doas unwindctl log verbose
+tail -f /var/log/messages
+ping rambler.ru
+host -v -t any nspk.ru
+tail -f /var/log/daemon
+ls -lt /var/log
+less /var/log/maillog
+mailx
+while sleep 1; do printf "%s" "$(clear; apm -l)"; done &
+jobs
+kill %1
+exit
+cat /etc/X11/xorg.conf.d/intel.conf 
+dmesg | grep -i intel
+less /var/log/Xorg.0.log
+grep intel /var/log/Xorg.0.log
+cat /etc/hostname.iwn0 
+grep . /etc/hostname.*
+man iwn
+man hostname.if
+man ifconfig
+cat /etc/hostname.iwn0 
+ifconfig iwn0
+less .cwmrc
+less .start
+cat /usr/local/share/isotop/bin/xclockstatusbar 
+df -h /home |tail -n 1 |awk '{print $5}'
+df -h /usr/local |tail -n 1 |awk '{print $5}'
+ll -a
+ll pfetch/
+pkg_info -Q neofetch
+man neofetch
+neofetch memory uptime wm
+neofetch 
+neofetch --cpu_temp C
+neofetch --cpu_temp C --memory_percent on
+ll pkg-readmes/
+cat pkg-readmes/cups
+/usr/local/bin/lpq
+/usr/local/bin/lpstat 
+ll pkg-readmes/
+less pkg-readmes/cups-filters 
+cat /etc/rc.local
+cat /etc/rc.conf.local 
+cat Backup/etc/rc.conf.local 
+less pkg-readmes/chromium 
+less pkg-readmes/firefox 
+xdg-mime default mupdf.desktop application/pdf
+xdg-mime query default application/pdf
+whence mupdf
+ll Downloads/
+ll /tmp
+tail -f /var/log/daemon
+pstree
+pstree |less
+cat /etc/X11/xenodm/Xsession
+echo $PATH
+grep Alt_L Backup/home/.xsession 
+man xcape
+pwd
+ll
+vi 1.txt 
+vi .start
+pkill xcape
+pgrep -fl xcape
+pstree |less
+man xclip
+grep xclip Backup/home/.xsession 
+grep xclip Backup/home/.profile 
+grep xclip Backup/home/.ksh
+grep xclip Backup/home/.kshrc 
+man xclip
+vi ~/.vimrc
+vim 1.txt
+cat .exrc
+vim .cwmrc
+vim .exrc
+grep -vE '^(#|$)' Backup/home/.cwmrc 
+grep -vE '^(#|$)' Backup/home/.xsession 
+grep -vE '^(#|$)' .start 
+man xbanish
+vim .start
+vim .kshrc
+less Backup/home/.kshrc 
+man ksh
+less Backup/home/.kshrc 
+alias
+vim .aliases
+vim .kshrc
+vim .profile
+man ksh

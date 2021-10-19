@@ -1,0 +1,215 @@
+# nord-style colorscheme
+# isotop
+#color activeborder "#B48EAD"
+#color inactiveborder "#8fbcbb"
+##color inactiveborder "#3b4252"
+#color font "#D8DEE9"
+#color selfont "#2E3440"
+#color menubg "#2E3440"
+#color menufg "#81A1C1"
+color urgencyborder "#BF616A"
+color groupborder "#A3BE8C"
+color ungroupborder "#BF616A"
+# tumfatig
+color activeborder "#50FA7B"
+#color inactiveborder "#21222C"
+color inactiveborder "#8fbcbb"
+color menubg "#282A36"
+color menufg "#50FA7B"
+color font "#F8F8F2"
+color selfont "#282A36"
+
+# Options
+borderwidth 2
+## leave tiny space to click on desktop + xclock space
+#gap 18 1 1 1
+gap 20 1 1 1
+fontname "DejaVu Sans Mono:pixelsize=12"
+## assign a window to the current group
+sticky yes
+## number of pixels to move
+moveamount 30
+## distance before snapping window
+snapdist 25
+## commands...
+command term xterm
+command lock "slock setxkbmap -layout us"
+
+# Windows rules
+ignore dmenu
+ignore Dunst
+ignore xclock
+ignore bar
+ignore polybar
+ignore termbar
+
+# Groups, find them by clicking on a window after running "xprop"
+# autogroup n "name,class"
+## xclock everywhere
+autogroup 0 "xclock,XClock"
+autogroup 0 "xmessage,Xmessage"
+autogroup 0 bar
+autogroup 0 termbar
+autogroup 1 "xterm,XTerm"
+autogroup 1 tmux
+
+# Launch web Telegram/Whatsapp/skype with chrome as an app,
+# which removes deco and uses particular WM_CLASS (see bind section)
+#
+# Telegramm chrome app
+autogroup 2 "crx_clhhggbfdinjmjhajaheehoeibfljjno,Chrome"
+# Signal messenger
+#autogroup 2 "crx_bikioccmkafdpakkkcpdbppfkghcmihk,Chrome"
+autogroup 2 "web.telegram.org,Chrome"
+autogroup 3 "web.whatsapp.com,Chrome"
+autogroup 4 "web.skype.com__ru,Chrome"
+autogroup 4 Mail
+autogroup 4 Mail, Thunderbird
+# Rest of iridium/chrome/firefox tabs place to Desktop#5
+autogroup 5 "chromium-browser,Chromium-browser"
+autogroup 5 "chrome,Chrome"
+autogroup 5 "Navigator,Firefox"
+
+
+# mouse bindings
+## scroll on background change volume
+bind-mouse 0-4 "sndioctl -q output.level=+0.1"
+bind-mouse 0-5 "sndioctl -q output.level=-0.1"
+## alt+right click: resize
+bind-mouse  M-1		window-move
+bind-mouse CM-1		window-raise
+bind-mouse CM-2		window-lower
+bind-mouse  M-3		window-resize
+
+# history for Chromium
+unbind-key C-h
+
+# keys and shortcuts
+## Move :     M-h/j/k/l
+## Resize : M-S-h/j/k/l
+## Move on screen edge
+bind-key MS-j	window-snap-down
+bind-key MS-k	window-snap-up
+bind-key MS-h	window-snap-left
+bind-key MS-l	window-snap-right
+
+## tiling
+vtile 50
+htile 50
+bind-key  M-t	window-vtile
+bind-key MS-t	window-htile
+
+# keyboard
+bind-key M-F4	window-close
+
+# lock the screen with winkey-l (also CM-delete)
+bind-key 4-l	lock
+
+# run xterm like in xfce
+# CM-Enter also run xterm
+bind-key CM-t	xterm
+
+## app menu alt-f2
+bind-key M-F2	menu-exec
+## app launcher
+bind-key M-p	"bdmenu"
+## Find window
+## label with M-C-n to find window with this menu
+## same as M-/
+bind-key M-f	menu-window
+
+# Use win and t, w for web Telegram and Whatsapp. By running it with the "--app" flag
+# window decoration seems to be removed but, more imporant, WM_CLASS inherits the URL
+# we call, which allows us to autogroup it where we wish (in my case, Desktop#2)
+bind-key 4-t "chrome --app=https://web.telegram.org/#/im"
+#bind-key 4-t "chrome --app-id=clhhggbfdinjmjhajaheehoeibfljjno"
+bind-key 4-w "chrome --app=https://web.whatsapp.com/"
+bind-key 4-s "chrome --app=https://web.skype.com/ru/"
+#bind-key 4-t "iridium --app-id=clhhggbfdinjmjhajaheehoeibfljjno"
+#bind-key 4-w "iridium --app=https://web.whatsapp.com/"
+#bind-key 4-s "iridium --app=https://web.skype.com/ru/"
+bind-key 4-m "chrome --app=https://mail.google.com/"
+bind-key 4-p "chrome --app=https://passwords.google.com/"
+# To obtain signal's app ID, go to chrome://extensions, signal, Details: Create shortcut
+# This will create a shortcut link in your Desktop folder. Use less to get the
+# ID. It is the string after "StartupWMClass", last line
+#bind-key 4-S "chrome --app-id=bikioccmkafdpakkkcpdbppfkghcmihk"
+#bind-key 4-S "chrome --app=https://web.skype.com/ru/"
+# run web browser
+bind-key 4-c web
+# switch keyboard layout
+bind-key 4-space "/home/sergor/scripts/switchkb.sh"
+# relaynch polybar
+bind-key M-r /home/sergor/scripts/polybar
+
+
+## GROUPS
+## M-[n] : to show only group n
+## MS-[n] : to move to group n
+## C-M-[n] to toggle visibility of group n
+## C-M-g to toggle group membership
+## C-M-a to toggle all groups
+
+## 5 groups are enough, who has more than 6 fingers? ^^
+## toggle group visibility
+bind-key M-1		group-only-1
+bind-key M-2		group-only-2
+bind-key M-3		group-only-3
+bind-key M-4		group-only-4
+bind-key M-5		group-only-5
+bind-key M-6		group-only-6
+bind-key M-7		group-only-7
+bind-key M-8		group-only-8
+bind-key M-9		group-only-9
+bind-key CM-a		group-toggle-all
+
+## assign focused window to group
+bind-key MS-1		window-movetogroup-1
+bind-key MS-2		window-movetogroup-2
+bind-key MS-3		window-movetogroup-3
+bind-key MS-4		window-movetogroup-4
+bind-key MS-5		window-movetogroup-5
+bind-key MS-6		window-movetogroup-6
+bind-key MS-7		window-movetogroup-7
+bind-key MS-8		window-movetogroup-8
+bind-key MS-9		window-movetogroup-9
+
+## cycle through groups
+bind-key  M-space	group-cycle
+bind-key MS-space	group-rcycle
+
+## shortcuts
+bind-key M-s	"dsch"
+bind-key M-x	"dfm"
+bind-key M-q	"dmpc"
+bind-key M-v	"mpc toggle"
+bind-key M-n	"mpc next"
+bind-key M-b	"mpc prev"
+bind-key M-w	"dloadbmk"
+bind-key M-z	"dshot"
+bind-key M-equal	"sndioctl -q output.level=+0.1"
+bind-key M-minus	"sndioctl -q output.level=-0.1"
+bind-key XF86AudioRaiseVolume "sndioctl -q output.level=+0.1"
+bind-key XF86AudioLowerVolume "sndioctl -q output.level=-0.1"
+
+# MENU
+command " WINDOWS       " ""
+command "   + Maximize  " "maxwin"
+command "   x Close     " "xdotool selectwindow windowclose"
+command "   ? Shortcuts " "xmessage -file /usr/local/share/isotop/data/isotop-help"
+command " SHORTCUTS    " ""
+command "   apps       " "ddesktop"
+command "   firefox    " "firefox"
+command "   xfe        " "xfe"
+command "   ncmpc      " "xterm -e ncmpc"
+command "   pkg_mgr    " "gdoas pkg_mgr"
+command "   xterm      " "xterm"
+command "   dshot      " "dshot"
+command "   man        " "xterm -e man isotop"
+command " SESSION      " ""
+command "   logout     " "pkill cwm"
+command "   lock       " "slock setxkbmap -layout us"
+command " ----------   " ""
+command "   zzz        " zzz
+command "   reboot     " "doas /sbin/reboot"
+command "   off        " "doas /sbin/shutdown -hp now"

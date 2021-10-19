@@ -1,0 +1,3080 @@
+ll /var/db/pkg/sct-0.5/
+ll /var/db/pkg/sct-0.5/+DESC 
+cat /var/db/pkg/sct-0.5/+DESC 
+pkg_info -L sct
+pkg_info sct
+vim .xsession
+vim scripts/termbar 
+sndioctl -n output.level
+sndioctl -n output.level | awk '{ print int($0*100) '}
+sndioctl -n input.mute
+cat -vte scripts/termbar |less
+ndioctl -n input.mute=1
+sndioctl -n input.mute=1
+cat -vte scripts/termbar |less
+tset -
+man xterm
+pgrep sctd
+pgrep sct
+pgrep sctd
+cat .xsession-errors 
+netstat -an -f inet
+tail -f /var/log/Xorg.0.log
+tail -f /var/log/messages
+tail -f /var/log/daemon
+pgrep -fl sctd
+pstree |less
+pstree 
+grep sctd .start .xsession
+kill 54178 91452
+sctd
+sctd &
+jobs
+pstree |less
+kill %1
+sctd >/dev/null 2>&1 &
+tail -f /var/log/daemon
+man sctd
+sctd version
+man printf
+vim scripts/termbar 
+mpv Downloads/The.War.of.Fire.1981.720p.BluRay.DTS.Fre.HDCLUB.mkv &
+systat
+printf "%f.3" 100
+printf "%f3.0" 100
+printf "%f3.0\\n" 100
+printf "%3.0f\\n" 100
+printf "%3.0f\\n" 0
+printf "%3.0f%\\n" 0
+printf "%3.0f%%\\n" 0
+printf "%3.0f%%\\n" 100
+vim scripts/termbar 
+scripts/termbar 
+vim scripts/termbar 
+scripts/termbar 
+man printf
+vim scripts/termbar 
+scripts/termbar 
+pgrep -fl sctd
+tail -f /var/log/daemon
+less $(which sctd)
+man trap
+man ksh
+less $(which sctd)
+file /bin/sh
+man sh
+man signal
+vim scripts/termbar 
+pgrep -fl sctd
+svim /usr/local/bin/sctd 
+pkill sctd
+pgrep -fl sctd
+kill 95629
+tail /var/log/daemon
+pgrep -fl sctd
+kill -9 95629
+tail /var/log/daemon
+pgrep -fl sctd
+vim scripts/termbar 
+scripts/termbar 
+scripts/termbar |cat -vte
+scripts/termbar 
+echo $?
+vim scripts/termbar 
+man printf
+printf "%d\\n" \\'a
+man ascii
+vim scripts/termbar 
+printf "%d\\n" "\\033[33mtext\\030[33m"
+printf "%b\\n" "\\033[33mtext\\030[33m"
+printf "%b\\n" "\\033[33mtext\\\\030[33m"
+printf "%b\\n" "\\033[33mtext\\\\030[33mword"
+printf "%b\\n" "\\033[33mtext\\030[33mword"
+printf "%b\\n" "\\033[33mtext word"
+vim scripts/termbar 
+printf "%b\\n" "\\033[33mtext\\033[39mword"
+vim scripts/termbar 
+man printf
+scripts/termbar 
+printf "%20.20b\\n" "\\033[33mtext\\033[39mword"
+printf "%b\\n" "\\033[33mtext\\033[39mword"
+printf "%b%20.20s\\n" "\\033[33mtext\\033[39mword"
+printf "%b%20.20s\\n" "\\033[33mtext\\033[39mword" 123
+printf "%3.0d" 100
+printf "%3.0d" 0
+printf "%3.0i" 0
+printf "%3.0i\\n" 0
+printf "%3.0i\\n" 10
+printf "%3.0f\\n" 10
+printf "%3.0f\\n" 0
+printf "%3.0f\\n" 200
+printf "%3.0f\\n" 2000
+printf "%20.20bs\\n" "\\033[33mtext\\033[39mword" 123
+printf "%20.20sb\\n" "\\033[33mtext\\033[39mword" 123
+printf "%20.20sb\\n" "\\033[33mtext\\033[39mword"
+printf "%20.20b\\n" "\\033[33mtext\\033[39mword"
+printf "%b\\n" "\\033[33mtext\\033[39mword"
+printf "%20.20s %b\\n" 123 "\\033[33mtext\\033[39mword"
+vim scripts/termbar 
+printf "%20.20s %b\\n" 123 "\\033[2mtext\\033[0mword"
+echo $((49*3/101))
+echo $((97*3/101))
+echo $((101*3/101))
+scripts/termbar 
+vim scripts/termbar 
+scripts/termbar 
+vim scripts/termbar 
+scripts/termbar 
+vim scripts/termbar 
+scripts/termbar 
+vim scripts/termbar 
+man ascii
+vim scripts/termbar 
+scripts/termbar 
+vim scripts/termbar 
+scripts/termbar 
+pgrep -fl sctd
+man pkill
+pkill -x sctd
+pgrep -fl sctd
+man pkill
+pkill -x sctd; echo $?
+pkill -9 sctd; echo $?
+man pkill
+pkill -15 sctd; echo $?
+pkill -15 sctd
+#pkill -15 /usr/local/bin/sctd
+man pkill
+pkill -15 sctd
+pgrep -fl termbar
+pkill -15 sctd
+pkill sctd
+pgrep -fl sctd
+pgrep sctd
+pgrep -l sctd
+pgrep -f sctd
+pkill -f sctd
+pgrep -f sctd
+tail -f /var/log/daemon
+pgrep -f sctd
+less /usr/local/bin/sctd
+vim scripts/termbar 
+svi /usr/local/bin/sctd
+nab sh
+man sh
+trap
+pgrep sctd
+echo 118+59|bc
+echo 195-177|bc
+date '+%a %d %b %R'| wc -c
+vim scripts/termbar 
+cat -vte scripts/termbar |less
+mcedit scripts/termbar 
+echo 118+59|bc -l
+scripts/termbar 
+mcedit scripts/termbar 
+scripts/termbar 
+vim scripts/termbar 
+man printf
+pkg_info firefox
+man pkg_add
+pkg_add -su chromium
+pkg_add -su firefox
+pgrep -fl sctd
+pkill -f sctd
+pgrep -fl sctd
+vi scripts/termbar 
+vi .cwmrc
+vim scripts/termbar 
+man cwm
+man cwmrc
+vim .cwmrc
+ll .config/ranger/
+man ranger
+ll /usr/local/share/doc/ranger/config/rc.conf 
+less /usr/local/share/doc/ranger/config/rc.conf 
+ranger --copy-config=.config/ranger/rc.conf
+ranger --copy-config=~/.config/ranger/rc.conf
+ranger --copy-config=rc
+pgrep -fl sctd
+vi .kshrc
+cat .xsession
+cat .start >> .xsession
+vim .xsession
+vi .config/ranger/rc.conf 
+export RANGER_LOAD_DEFAULT_RC=false
+ranger
+less Backup/home/.xsession 
+vim .xsession
+pgrep -fl sctd
+pkill -f sctd
+pgrep -fl sctd
+tail -f /var/log/daemon
+pgrep -fl sctd
+tail -f /var/log/daemon
+dmesg
+pgrep -fl sctd
+tail -f /var/log/daemon
+vim scripts/termbar 
+pgrep -fl sctd
+tail -f /var/log/daemon
+pgrep -fl sctd
+tail -f /var/log/daemon
+svim $(which sctd)
+ranger
+vim scripts/termbar 
+pgrep -fl sctd
+vim scripts/termbar 
+man sh
+doas -s
+man cwmrc
+netstat -rn
+netstat -4rn
+netstat -rn -f inet
+pgrep -fl sctd
+tail -f /var/log/daemon
+filw $(whence sctd)
+file $(whence sctd)
+file $(whence sct)
+less Downloads/makeminty.sh 
+man sct
+man pstat
+pstat -s
+swapinfo
+swapctl
+kbd -l
+man kbd
+ll /var/crash/
+cat /etc/wsconsctl.conf 
+cat /etc/kbdtype
+cat > .exrc
+vi 1.txt 
+vim 1.txt
+cat .exrc
+ranger
+sysctl ddb.console
+man sysctl
+man 2 sysctl
+sysctl ddb
+svi /etc/sysctl.conf 
+dmesg | less
+grep -i equal .cwmrc
+man cwmrc
+man cwm
+dmesg
+less /var/log/messages
+less /var/log/xenodm.log 
+svi /etc/wsconsctl.conf 
+man sendbug
+doas sendmug -P
+doas sendbug -P
+ll
+doas sendbug -P |less
+video
+ll /dev/video
+ll /dev/video0
+ll /etc/fbtab 
+less /etc/fbtab 
+man video
+man 8 video
+man 1 video
+video
+sysctl kern.video
+sysctl kern
+sysctl kern |grep video
+doas -s
+doas video
+doas DISPLAY=:0 video
+man doas
+cat /etc/fbtab
+ll /dev/console
+ll /dev/wskd
+ll /dev/wskbd
+ll /dev/wskbd0
+ll /dev/wsmouse
+ll /dev/wsmouse0
+svi /dev/fbtab
+svi /etc/fbtab
+tty
+man fbtab
+man login_fbtab
+man login
+man fbtab
+ll/dev/video
+ll /dev/video
+ll /dev/video0
+svi /etc/fbtab 
+ll /dev/video0
+doas chmod g+w /dev/video0
+video
+ll /dev/video0
+doas chmod g+r /dev/video0
+ll /dev/video0
+video
+less /etc/X11/xenodm/GiveConsole 
+less /etc/X11/xenodm/TakeConsole 
+less /etc/X11/xenodm/GiveConsole 
+svi /etc/mail/secrets
+svim /etc/mail/smtpd.conf 
+doas chown root:_smtpd /etc/mail/secrets
+doas chmod 0600 /etc/mail/secrets
+ll /etc/mail
+cat /etc/mail/spamd.conf
+netstat -an -f inet | grep -i listen
+doas rcctl restart smtpd
+tail -f /var/log/maillog
+man mailx
+mailx -r sgoryachev75@gmail.com -s test gors@mail.ru
+svim /etc/mail/smtpd.conf 
+svim /etc/mail/secrets 
+doas rcctl restart smtpd
+mailq
+doas mamilq
+doas mailq
+man mailq
+doas -s
+echo "https://support.google.com/mail/?p=BadCredentials" | xclip -i
+web "https://support.google.com/mail/?p=BadCredentials" &
+doas chmod 0640 /etc/mail/secrets
+doas -s
+mailx -r sgoryachev75@gmail.com -s test_123 gors@mail.ru
+vim scripts/termbar 
+echo $TERM
+tset -
+which terminal
+which term
+tset -
+grep term .cwmrc
+cat bin/term 
+man cwm
+man cwmrc
+which vi
+vi .kshrc
+vi .profile
+tset -
+alias
+alias vi
+less .xsession-errors 
+grep xrdb .xsession
+vi $HOME/.Xresources
+cat .xsession-errors 
+pgrep -fl sct
+pkill -f sctd
+cat -vte $HOME/.Xresources |less
+vi xterm.txt
+vim .Xresources 
+cat xterm.txt 
+scripts/termbar 
+tset -
+TERM=xterm-256
+grep xterm /etc/termcap 
+TERM=xterm-color
+scripts/termbar 
+TERM=xterm-256colol
+scripts/termbar 
+TERM=xterm-256color
+scripts/termbar 
+ll /usr/local/share/mc/skins/
+grep 256 /etc/termcap 
+tset -
+TERM=256color
+scripts/termbar 
+TERM=st-256color
+scripts/termbar 
+vim scripts/termbar 
+scripts/termbar 
+tset -
+pstree
+pgrep -fl sctd
+scripts/termbar
+vim scripts/termbar
+apm -a
+man apm
+scripts/termbar
+vim scripts/termbar
+sh -n scripts/termbar
+scripts/termbar
+vim scripts/termbar
+apm -l
+apm -b
+man apm
+sh -n scripts/termbar
+scripts/termbar
+vim scripts/termbar
+scripts/termbar
+vim scripts/termbar
+neofetch memory
+man neofetch
+memory="$(neofetch memory)"; memory="${memory##*: }"; echo ${memory}
+man neofetch
+neofetch memory --memory-percent on
+neofetch --memory-percent on memory
+man neofetch
+neofetch --memory_percent on memory
+neofetch --memory_percent on
+neofetch memory --memory_percent on
+top -bd1 |grep Mem
+sndioctl 
+sndioctl input.mute=1
+sndioctl input.mute=0
+vim scripts/termbar 
+apm -b
+sndioctl input.mute=1
+video
+doas -s
+tail -f /var/log/maillog
+doas smtpctl log verbose
+mailx -r sgoryachev75@gmail.com -s test_567 gors@mail.ru
+doas smtpctl log brief
+doas smtpctl monitor
+doas smtpctl show hosts
+doas smtpctl show hoststats
+doas smtpctl show relays
+doas smtpctl show relay
+doas smtpctl show routes
+doas smtpctl show stats
+doas smtpctl show status
+cat /etc/mailer.conf 
+ll /etc/examples/
+vi .cwmrc
+man cwm
+man cwmrc
+vi .cwmrc
+less .cwmrc
+pkg_info -Q opensmtpd-filter-dkimsign
+pkg_info -Q opensmtpd-filter-rspamd
+pkg_info opensmtpd-filter-rspamd
+pkg_info opensmtpd-filter-dkimsign
+pkg_info -Q opensmtpd
+pkg_info opensmtpd-filter-dnsbl
+pkg_info opensmtpd-extras
+doas pkg_add opensmtpd-extras
+pkg_info -L opensmtpd-extras
+man table-passwd
+apm -l
+apm -a
+apm -b
+pgrep -fl sctd
+tail -f /var/log/daemon
+tail -f /var/log/messages
+unwindctl status all
+unwindctl 
+unwindctl status
+unwindctl status memory
+unwindctl status all
+unwindctl status autoconf
+doas syspatch
+man unwindctl
+unwindctl status memory
+vim scripts/termbar 
+pkg_info opensmtpd-filter-rspamd
+tail -f /var/log/messages
+tail -f /var/log/daemon
+tail -f /var/log/messages
+apm -b
+file Downloads/drweb-maild-11.1.10-2101211331linux.x86_64.rpm 
+cd Downloads/
+tar tvf drweb-maild-11.1.10-2101211331linux.x86_64.rpm 
+tar ztvf drweb-maild-11.1.10-2101211331linux.x86_64.rpm 
+mc
+doas pkg_add rpm2cpio
+rpm2cpio drweb-maild-11.1.10-2101211331linux.x86_64.rpm | cpio -idmv
+ll
+ranger
+\M-B\M^Tmc
+which mc
+echo $PATH
+/usr/local/bin/mc
+man rpm2cpio
+mc
+apm -b
+apm -l
+man nice
+apropos priority
+man renice
+pgrep -fl termbar
+renice -n -1 61619
+doas renice -n -1 61619
+top
+man git
+git clone https://framagit.org/3hg/isotop.git
+ll isotop/
+rm -rf isotop/
+git clone https://framagit.org/3hg/isotop.git
+systat net
+systat 
+less isotop/
+ll isotop/
+less isotop/isotop-root.sh 
+less isotop/isotop-user.sh 
+less Backup/home/.cwmrc 
+grep inactiveborder Backup/home/.cwmrc 
+grep inactiveborder Backup/home/.cwmrc  .cwmrc
+grep activeborder Backup/home/.cwmrc  .cwmrc
+echo "#8FBCBB" |tr [:upper:] [:lower:]
+vi .cwmrc
+q
+pgrep -fl sctd
+tail -f /var/log/daemon
+less /var/log/daemon
+echo $TZ
+apropos timezone
+strings /etc/localtime 
+tty
+tset -
+doas -s
+svim /etc/skel/.profile 
+uname -a
+sysctl kern.version
+sysctl hw.numcpufound
+sysctl hw
+sysctl hw.ncpufound
+pkg_info -Q free
+pkg_info free
+uptime
+man fw_update
+fw_update -i
+tmux
+mc
+systat
+tail -f /var/log/maillog
+mailx
+doas mailx -u root
+systat
+less /etc/fbtab 
+less /etc/login.conf 
+cat /etc/motd.authpf
+doas -g
+doas -s
+doas mailx -u root
+less /etc/X11/xenodm/TakeConsole 
+ll /dev/drm0
+ll /dev/drmR128
+ll /dev/drmR129
+ll /dev/dri
+man tmux
+pstree
+pgrep -fl sctd
+pstree |less
+kill 32512
+tail -f /var/log/daemon
+man free
+man 1 free
+free
+pkg_info free
+free
+free -m
+man free
+man 1 free
+tmux attach
+less /etc/X11/xenodm/GiveConsole 
+free
+man tmux
+less .tmux.conf 
+man kstat
+man ktrace
+ll /dev/video0
+video
+doas chmod g+rw /dev/video0
+video
+svim /etc/sysctl.conf 
+man 2 sysctl
+sysctl kern.nosuidcoredump
+sysctl kern.audio.record
+sysctl kern.video.record
+sysctl kern.video.record=1
+doas sysctl kern.video.record=1
+video
+doas sysctl kern.video.record=0
+svim
+svim /etc/sysctl.conf 
+ll isotop
+rm -rf isotop/
+git clone https://framagit.org/3hg/isotop.git
+git pull https://framagit.org/3hg/isotop.git
+man git
+man git-pull
+cd isotop/
+git pull
+ll
+ll isotop-files/
+la isotop-files/user/
+cat isotop-files/user/.xlocktext 
+cat isotop-files/user/.dmenurc
+cat isotop-files/user/.kshrc
+less isotop-files/user/.kshrc
+pkg_info firefox-85.0.2p0/
+pkg_info firefox-85.0.2p0/ |less
+cd isotop/
+git pull
+diff -u isotop-files/user/.Xresources ../.Xresources 
+echo $?
+alias
+vim 1.txt
+cat 1.txt 
+doas -d
+usbdevs
+doas usbdevs
+pcidump |wc -l
+doas pcidump |wc -l
+doas pcidump
+doas acpidump
+doas sendbug
+sysctl ddb.{console,panic}
+sysctl wskbd
+cat /etc/wsconsctl.conf 
+sysctl 
+wsconsctl 
+doas wsconsctl 
+sysctl ddb.{console,panic}
+cat /etc/wsconsctl.conf 
+doas wsconsctl 
+doas wsconsctl keyboard
+ls -l /etc/kbdtype ; cat  /etc/kbdtype 
+ls -l /etc/wsconsctl.conf 
+cat /etc/wsconsctl.conf 
+tail -f /var/log/maillog
+sysctl ddb
+ifconfig -a
+dmesg | grep iwn
+man ifconfig
+doas -s
+sysctl ker.nosuidcoredump
+sysctl ker.nosuidcoredumps
+sysctl kern.nosuidcoredumps
+sysctl kern.nosuidcoredump
+less isotop-files/user/.Xresources 
+vim .Xresources 
+vimdiff .Xresources isotop/isotop-files/user/.Xresources 
+vim .Xresources 
+vimdiff .Xresources isotop/isotop-files/user/.Xresources 
+git log
+xwininfo -root
+cd isotop/
+cd isotop-files/src/
+ll
+cd st/
+ll
+less st-alpha-0.8.2.diff 
+ll
+less TODO 
+less README 
+cd ../dwm
+ll
+pstree
+pkg_info -Q st
+pkg_info -Q st | less
+pkg_info -Q st--
+pkg_info st--
+cd ../../
+cd ..
+git log
+doas -s
+history
+history 
+echo $HISTFILE
+echo $HISTSIZE
+grep mail .hist
+doas -s
+wc -l ~/.{ksh_,}hist
+mail -r sgoryachev75@gmail.com -s 'st with scrollback patch in isotop' prx@ybad.name
+ll isotop/isotop-files/src/st/
+tail -f /var/log/maillog
+ll /home/sergor/Downloads/
+ll /home/sergor/Downloads/st-scrollback-20201205-4ef0cbd.diff 
+grep scrol /home/sergor/Downloads/st-scrollback-20201205-4ef0cbd.diff 
+grep -r scroll isotop-files/src/st/
+grep scroll Downloads/st-
+grep scroll Downloads/st-scrollback-20201205-4ef0cbd.diff 
+vi isotop-files/src/st/config.def.h.rej 
+vi isotop-files/src/st/config.def.h
+ll
+cat 1.txt 
+mv 1.txt ~
+less README.md 
+cd isotop-files/src/st
+ll
+less Makefile 
+less config.mk
+grep -r patch .
+less x.c
+less config.h
+ll
+grep -r diff .
+cp /home/sergor/Downloads/st-scrollback-20201205-4ef0cbd.diff .
+ll
+less isotop/isotop-user.sh 
+make
+ll
+grep -r kscroll .
+ll st ~/bin/st
+make clean
+ll
+patch -p1 < st-scrollback-20201205-4ef0cbd.diff 
+make
+ll st ~/bin/st
+echo $HOME
+make install PREFIX=$HOME MANPREFIX=$HOME/man/
+mc
+pstree
+vim .Xresources 
+pstree
+cd /tmp
+tar zxvf /home/sergor/Downloads/st-0.8.4.tar.gz -C /tmp
+ll
+cd st-0.8.4/
+cp /home/sergor/Downloads/st-scrollback-0.8.4.diff .
+ll
+make
+cd
+rm -rf /tmp/st-0.8.4/
+cd isotop/
+git pull
+cd isotop-files/src/st
+ll
+rm st-scrollback-20201205-4ef0cbd.diff 
+make clean
+ll
+cp /home/sergor/Downloads/st-scrollback-0.8.4.diff .
+ll
+make
+#make install PREFIX=$HOME MANPREFIX=$HOME/man/
+ll st ~/bin/st
+ll
+ll st ~/bin/st
+tmux
+pstree
+make clean
+vi config.h 
+alias vi
+vi config.h 
+make
+alias vi
+make clean
+vi config.h
+less st-scrollback-0.8.4.diff 
+ll 
+patch -p1 < st-alpha-0.8.2.diff 
+make clean
+cd ../../../
+git pull
+cit checkput
+git checkput
+git checkout
+git pull origin
+ll isotop-files/src/st/
+cd isotop-files/src/st/
+ll
+rm *.rej*
+ll
+patch -p1 < st-scrollback-0.8.4.diff 
+grep -r scroll .
+make
+ll st ~/bin/st
+./st
+pstree
+make clean
+ll
+cd ~/isotop
+git checkout
+ll isotop-files/src/st/
+cd
+git clone https://git.suckless.org/scroll
+ll
+cd scroll/
+ll
+less README 
+ll
+less scroll.1
+man mandoc
+man nroff
+make
+ll
+less Makefile 
+ll
+less config.mk
+pkg_info -Q scroll
+make install PREFIX=$HOME MANPREFIX=$HOME/man/
+man scroll
+man 1 scroll
+which scroll
+ll ../man
+ll ../man/man1
+mc
+grep whatis ../isotop/isotop-user.sh 
+makewhatis $HOME/man
+man 1 scroll
+man st
+man 1 st
+st -e scroll /bin/sh
+pstree
+~~~q
+man 1 scroll
+scroll -h
+scroll -v
+man 1 scroll
+scroll /home/sergor/bin/st
+pstree
+man 1 st
+man 1 scroll
+st -e scroll /bin/ksh
+pwd
+mailq
+doas mailq
+pstree
+mc
+tmux
+/usr/local/bin/ansiweather -l zhukovsky -a false -s false -i false -w false -h false -p false 2>/dev/null
+cd isotop/
+git pull
+git config pull.rebase false
+vi /home/sergor/bin/term 
+cat ~/bin/term
+which st
+which urxvt
+which rxvt
+which xfce4-terminal
+which xterm
+man scroll
+man 1 scroll
+man 1 st
+man 1 utmp
+w
+tset -
+less /etc/termcap 
+ll /etc/termcap 
+doas syspatch
+rover
+cd isotop-files/src/dwm
+ll
+grep -r term .
+man scroll
+man 1 scroll
+scroll -h
+scroll st
+pstree
+vi config.def.h
+make
+make install PREFIX=$HOME MANPREFIX=$HOME/man/
+ll ~/bin/dwm
+vi .xsession
+cat isotop/isotop-files/user/.xsession 
+ll bin/d*
+cat isotop/isotop-user.sh 
+vi .xsession
+tset -
+man 1 isotop
+apropos isotop
+man 7 isotop
+man dwm-isotop
+man dwm
+vi .xsession
+cd bin/
+mv dwm-isotop{,.orig}
+mv dwm{,-isotop}
+ll
+pwd
+cd
+cat isotop/isotop-files/etc/isotop.version 
+cat isotop/isotop-files/etc/apm/
+cat isotop/isotop-files/etc/apm/hibernate 
+cat isotop/isotop-user.sh 
+grep -r first isotop/
+ps
+grep -r first isotop/ |less
+mc
+pkill dwm
+la
+la -t
+ll -a -t
+cat .xsession-errors 
+vi .Xresources 
+cat .xsession-errors 
+netstat -an -f inet
+vi .xsession
+ps
+pstree
+vi .xsession
+vi bin/term 
+pstree
+pstree |less
+man scroll
+man 1 scroll
+which tmux
+vi bin/term 
+ll /usr/bin/ls
+ll /bin/ls
+vim bin/term
+man st
+man 1 st
+tmux
+tmux attach
+man 1 dwm
+man 1 isotop
+man isotop
+man -M ./man isotop
+pgrep -fl sctd
+pstree
+;2~\\
+man -M ./man isotop
+pwd
+pstree
+clear
+man patch
+cat isotop/isotop-files/src/st/st-scrollback-0.8.4.diff 
+cd isotop/isotop-files/src/st
+q
+patch
+patch -p1 < st-scrollback-0.8.4.diff 
+ll -t
+make
+ll st ~/bin/st
+./st
+pstree
+man -M ./man isotop
+pkg_info -Q dwm
+pkg_info -Q dwmstat
+ll isotop/isotop-files/src/slstatus/
+ll isotop/isotop-files/src/slstatus/config.{,def.}h
+diff -u isotop/isotop-files/src/slstatus/config.{,def.}h
+less isotop/isotop-files/src/slstatus/config.h
+git clone git@git.2f30.org/spoon.git
+git clone https://git.2f30.org/spoon.git
+man git 
+GIT_SSL_NO_VERIFY=true git clone https://git.2f30.org/spoon.git
+GIT_SSL_NO_VERIFY=true git clone https://git.2f30.org/spoon
+pkg_info -Q spoon
+git clone git://git.2f30.org/spoon.git
+pwd
+cd 
+cd spoon/
+ll
+make
+cat Makefile |less
+make config.h
+cp ../scroll/config.mk .
+vim config.mk
+grep -e CPPFLAGS CFLAGS LDFLAGS spoon/Makefile 
+less spoon/Makefile 
+grep -e CPPFLAGS CFLAGS LDFLAGS spoon/Makefile 
+grep -e CPPFLAGS -e CFLAGS -e LDFLAGS spoon/Makefile 
+make config.h
+less config.h
+ll /sys/
+less Makefile 
+make
+less spoon.c 
+rm config.h
+make
+less spoon.c 
+grep -pi openbsd .
+grep -ri openbsd .
+make
+vi Makefile 
+vi config.mk
+make
+ll /usr/X11R6/lib
+ll /usr/X11R6/include/
+ll /usr/X11R6/lib/X11/
+ll /usr/X11R6/include/
+ll /usr/X11R6/include/X11/
+make
+locate X11/keysym.h
+vi config.mk
+make
+vi config.mk
+make
+vi Makefile 
+make
+vi Makefile 
+alias vi
+vim Makefile 
+make
+vim Makefile 
+uname
+vi config.mk
+make
+less Makefile 
+ll
+make clean
+less configure 
+./configure
+less config.mk
+cat config.mk
+make
+make clean
+vi Makefile 
+make
+make install PREFIX=$HOME MANPREFIX=$HOME/man/
+ll
+cd 
+vim .xsession
+pkill slstatus
+spoon &
+kill %1
+git clone git://git.suckless.org/dwmstatus
+cd dwmstatus/
+make
+make install PREFIX=$HOME MANPREFIX=$HOME/man/
+dwmstatus >/dev/null 2>&1 &
+  jobs
+kill %1
+cd
+cd isotop/isotop-files/src/slstatus/
+ll
+cat config.mk
+vi config.h
+mpd-status
+slstatus &
+vim config.h
+man mpd-status
+which mpd-status
+file $(which mpd-status)
+less $(which mpd-status)
+cd isotop/
+git pull
+cd bin
+ll
+cat openbsdupgrade 
+grep -r io .
+cat ../.functions 
+..
+ls -la
+cat .bookmarks 
+grep -r bookmarks bin
+vim bin/daddbmk 
+vim bin/dloadbmk 
+lsdesktop
+lsdesktop |less
+less bin/lsdesktop 
+man 1 lsdesktop
+ll /usr/local/share/applications/
+ll $HOME/.local/share/applications/
+ll $HOME/.local/share/applications/chr*
+less $HOME/.local/share/applications/chr*
+ll /usr/share/applications/
+cd $HOME/.local/share/applications/
+ll
+vim .cwmrc
+cp chrome-clhhggbfdinjmjhajaheehoeibfljjno-Default.desktop chrome-whatsapp-Default.desktop
+ll
+vi chrome-whatsapp-Default.desktop 
+lsdesktop
+ll
+which chrome
+vi chrome-whatsapp-Default.desktop 
+lsdesktop
+man -M ~/man isotop
+man slstatus
+man lsdesktop
+ lsdesktop -s '::'
+vi chrome-whatsapp-Default.desktop 
+ lsdesktop -s '::'
+ lsdesktop
+man 1 dwm-isotop
+man ddesktop
+man dsession
+man dmenu
+which ddesktop
+file $(which ddesktop)
+less $(which ddesktop)
+ll /home/sergor/.cache/
+cat /home/sergor/.cache/ddesktop 
+less $(which ddesktop)
+lsdesktop -s '::'
+less $(which ddesktop)
+lsdesktop -s '::' | cut -d'::' -f2- | column -t -s '::'
+vi chrome-whatsapp-Default.desktop 
+lsdesktop -s '::' | cut -d'::' -f2- | column -t -s '::'
+lsdesktop -s '::'
+lsdesktop -s '::' | cut -d'::' -f2-
+lsdesktop -s '::' | cut -d'::' -f2- | column -t
+lsdesktop -s '::' | cut -d'::' -f2- | column -t -s'::'
+lsdesktop -s '::' | cut -d'::' -f2-
+man column
+lsdesktop -s '::' | cut -d'::' -f2- | column -t -s':'
+lsdesktop -s '::' | cut -d'::' -f2- | column -t -s'::'
+lsdesktop -s '::' | cut -d'::' -f2- | column -t -s'\\::'
+lsdesktop -s '::' | cut -d'::' -f2- | column -t -s'\\:\\:'
+man chrome
+vi chrome-whatsapp-Default.desktop 
+lsdesktop -s '::' | cut -d'::' -f2- | column -t -s'\\:\\:'
+lsdesktop -s '::' | cut -d'::' -f2- | column -t -s'::'
+lsdesktop
+lsdesktop -s ',' | cut -d',' -f2- | column -t -s','
+vim /home/sergor/bin/ddesktop 
+ddesktop
+man -M ~/man isotop
+man vim
+man vi
+man vim
+man ntfsfix
+man mkntfs
+man ntfsprogs
+man ntfs-3g
+host 94.140.14.15
+cat /etc/login.conf 
+man authpf
+man xidle
+cat /etc/chromium/unveil.main 
+pgrep -fl sctd
+tail -f /var/log/daemon
+cat /etc/firefox/pledge.main 
+cat /etc/firefox/pledge.gpu
+pkill dwstatus
+slstatus &
+vi .xsession
+pkill spoon
+slstatus &
+vi .local/share/applications/
+vi .local/share/applications/chrome-clhhggbfdinjmjhajaheehoeibfljjno-Default.desktop 
+systat
+pgrep sctd
+vi .Xresources 
+pgrep -fl sctd
+pkill -f sctd
+pgrep -fl sctd
+host 173.194.222.188
+pstree |less
+grep -r term bin
+dman lsdesktop
+grep -r 'term -e' bin
+term -e $EDITOR /home/sergor/1.txt 
+tset -
+exit
+xterm -e $EDITOR /home/sergor/1.txt 
+vim .local/share/applications/chrome-clhhggbfdinjmjhajaheehoeibfljjno-Default.desktop 
+vim .local/share/applications/chrome-whatsapp-Default.desktop 
+lsdesktop -s','
+cat /usr/local/share/applications/chromium-browser.desktop 
+less /usr/local/share/applications/chromium-browser.desktop 
+grep '[ru]' /usr/local/share/applications/chromium-browser.desktop 
+grep '\\[ru\\]' /usr/local/share/applications/chromium-browser.desktop 
+cat bin/chromium-cache.sh 
+free
+top
+cat /etc/iridium/default 
+cat /etc/chromium/default 
+cat /etc/iridium/unveil.main 
+pstree |less
+man iridium
+which iridium
+file /usr/local/bin/iridium 
+file /usr/local/iridium/iridium 
+less /usr/local/bin/iridium 
+vi .local/share/applications/chrome-clhhggbfdinjmjhajaheehoeibfljjno-Default.desktop 
+vi .local/share/applications/chrome-whatsapp-Default.desktop 
+top
+pkg_info iridium
+pkg_info chromium
+pkg_info firefox
+doas pkg_add -uv
+man sysclean
+doas sysclean -p
+doas sysclean -a
+doas sysclean
+ll /etc/signify/openbsd-6[56]*
+doas rm -i /etc/signify/openbsd-6[56]*
+cat /etc/skel/.first.sh 
+cat .config/user-dirs.dirs 
+qlllll
+pwd
+clear
+ll
+less /etc/skel/.first.sh 
+locate unclutter
+xdg-mime query default application/pdf
+doas pkg_add simple-mtpfs
+sysctl hw.ncpu
+sysctl hw.ncpufound
+grep xclip .exrc .tmux*
+host romanzolotarev.com
+host rgz.ee
+curl wttr.in/Zhukovsky
+vi .kshrc
+. .kshrc
+man ksh
+vi .kshrc
+git clone https://notabug.org/kl3/dwmstat.git
+cd dwmstat
+ll
+less Makefile 
+make
+make config.h
+make
+make install PREFIX=$HOME MANPREFIX=$HOME/man/
+less Makefile 
+locate bsd.prog.mk
+less /usr/share/mk/bsd.prog.mk
+less /usr/share/mk/bsd.own.mk
+cat /etc/mk.co
+cat /etc/mk.conf
+ll
+ll bin/sl*
+ll ../bin/sl*
+cp -ipv dwmstat ../bin
+ll ./bin/dwmstat
+ll ../bin/dwmstat
+..
+pkill slstatus
+dwmstat
+less dwmstat/config.h
+grep -r volume dwmstat/
+pkill dwmstat
+jobs
+less dwmstat/dwmstat.c
+tar xtvf Downloads/dstat-0.7.tar.gz 
+tar zxtvf Downloads/dstat-0.7.tar.gz 
+tar ztvf Downloads/dstat-0.7.tar.gz 
+ll
+tar zxvf Downloads/dstat-0.7.tar.gz 
+ll
+cd dstat-0.7/
+less Makefile 
+make
+less Makefile 
+make clean
+ll
+less README 
+make
+make install PREFIX=$HOME MANPREFIX=$HOME/man/
+jobs
+date
+dstat &
+jobs
+dstat version
+dstat trunk0 &
+kill %1
+cat README 
+dstat trunk0 >/dev/null 2>&1 &
+tail -f /var/log/messages
+apm -l
+apm -a
+man apm
+apm -m
+tail -f /var/log/messages
+tail -30f /var/log/messages
+less /var/log/messages
+top
+..
+cat .xsession
+pwd
+git clone https://github.com/drscream/cwm-statusbar.git
+ll
+cd cwm-statusbar/
+ll
+less README.md 
+pkg_info -Q siji
+ll
+cd etc/
+ll
+less settings.sh 
+vi /home/sergor/.xsession
+cd cwm-statusbar/
+vi etc/settings.sh 
+which lemonbar
+pkg_info lemonbar
+pkg_info -Q lemonbar-xft
+pkg_info -Q lemonbar
+pkg_info -L lemonbar-xft
+vi etc/settings.sh 
+cat README.md 
+./xprop start
+./datetime start
+./statusbar start
+top
+les xprop 
+less xprop 
+less datetime 
+tail -f /tmp/datetime.log 
+tail -f /tmp/datetime.error.log 
+ll -a /tmp
+less lib/services.sh 
+less datetime 
+cat etc/settings.sh 
+which lemonbar
+./statusbar stop
+vi etc/settings.sh 
+less statusbar 
+ll
+cd /tmp
+ll -a
+ps
+pkill statusbar
+pkill -f statusbar
+ps
+./statusbar start
+ll -at
+cat statusbar.error.log 
+pkill -f statusbar
+vi statusbar 
+>statusbar.error.log 
+ll -at
+./statusbar start
+cat statusbar.error.log 
+pkill -f statusbar
+>statusbar.error.log 
+vi etc/settings.sh 
+./statusbar start
+ll -at
+cat /etc/iridium/default 
+ll /tmp/.cache/
+ll /tmp/.cache/iridium/
+ll /tmp/.cache/iridium/Default/
+echo $CHROME_FLAGS
+cat /etc/chrome/default 
+cat /etc/chromium/default 
+rm -rf .org.chromium.Chromium.*
+df -h
+pkill -f statusbar xprop datetame
+ps
+ll -at
+pkill -f statusbar xprop datetime
+ps
+tty
+ps
+tty
+\M^]
+tty
+kill -1 33063 98904
+less xprop 
+vim xprop 
+which bash
+vim xprop 
+vim datetime 
+vim statusbar 
+vim xprop 
+./xprop start
+cat /tmp/fifo.fifo 
+man tail
+vim statusbar 
+vim lib/services.sh 
+at -p
+ll -at
+./xprop status
+./xprop stop
+rm xprop.*
+rm datetime.*
+rm statusbar.*
+rm fifo.fifo 
+ll -at
+./xprop start
+./xprop status
+./datetime start
+./datetime status
+./datetime tail
+tail -f fifo.fifo 
+cat fifo.fifo 
+date
+./statusbar start
+./statusbar status
+pgrep -fl lemonbar
+cat fifo.fifo 
+./xprop restart
+./xprop status
+./datetime restart
+./datetime status
+less /home/sergor/.Xresources 
+xwininfo
+vi .cwmrc
+vi ~/.cwmrc
+vim statusbar 
+tail -f fifo.fifo 
+ll -at
+ll *.pid
+grep . *.pid
+vim lib/services.sh 
+ll
+vim battery 
+./battery start
+./battery status
+./statusbar restart
+vim statusbar 
+cat fifo.fifo 
+vim battery 
+apm -l
+./statusbar stop
+pkill -f statusbar
+vi statusbar 
+./statusbar start
+./statusbar restart
+./xprop restart
+./battery restart
+vim battery 
+pkill -f battery datetime xprop statusbar 
+ll -at
+pgrep -f battery datetime xprop statusbar 
+pkill -f battery datetime xprop statusbar 
+ll {datetime,xprop,battery,statusbar}.*
+less battery.error.log 
+vim battery 
+ll {datetime,xprop,battery,statusbar}.*
+rm {datetime,xprop,battery,statusbar}.*
+ll-at
+ll -at
+rm fifo.fifo 
+pgrep -fl sctd
+tail -f /var/log/daemon
+pgrep -fl sctd
+vi .xsession
+man xterm
+man 7 X
+pgrep -q xcompmgr
+echo $?
+pgrep -q xcompmgd
+vim .xsession
+pgrep -fl sctd
+tset -
+exit
+alias
+openbsdupgrade 
+which term
+vi .cwmrc
+man cwm
+which brlaser
+localte brlaser
+locate brlaser
+vi .cwmrc
+lscpu
+pkg_info hplip
+pkg_info -L hplip
+less /etc/iridium/unveil.utility_network
+man dbus-launch
+vi .xsession
+pgrep -fl dbus
+man numlockx
+which numlockx
+pkg_info -E /usr/local/bin/numlockx
+pkg_info -L numlockx
+less /usr/local/share/doc/numlockx/README
+man cwm
+man xidle
+man slock
+pkg_info slock
+man xautolock
+man xss
+man xssstate
+file $(whence sct{,d})
+pkg_info sctd
+pkg_info sct
+pkg_info -L sct
+man sctd
+man sct
+man sctd
+less /usr/local/bin/sctd
+man trap
+man builtin
+man ksh
+svim /usr/local/bin/sctd
+pkill -f sctd
+pgrep -fl sctd
+tail -f /var/log/daemon
+sctd 1>&- 2>&- &
+pgrep -fl sctd
+pkill -f sctd
+pgrep -fl sctd
+pkill -f sctd
+pgrep -fl sctd
+svim /usr/local/bin/sctd
+sh -n /usr/local/bin/sctd
+sctd 1>&- 2>&- &
+pgrep -fl sctd
+pkill -f sctd
+pgrep -fl sctd
+systat
+pgrep -fl sctd
+svi $(whence sctd)
+ksh -n $(whence sctd)
+sh -n $(whence sctd)
+sctd 1>&- 2>&- &
+jobs
+pgrep -fl sctd
+pstree
+pgrep -fl sctd
+pkill -f sctd
+pgrep -fl sleep
+pgrep -fl sctd
+svi $(whence sctd)
+sctd 1>&- 2>&- &
+ps
+pkill -f sctd
+ps
+tty
+ps
+tail -f /var/log/daemon
+pgrep -fl sctd
+pstree
+tail -f /var/log/daemon
+pgrep -fl sctd
+man signal
+man kill
+pgrep -f sctd
+pgrep -fl sctd
+pkill -fl sctd
+pgrep -fl sctd
+pgrep -fl sleep
+ssvi $(whence sctd)
+svi $(whence sctd)
+pgrep -fl sctd
+pstree | less
+tail -f /var/log/daemon
+man isotop
+ll bin
+pgrep -fl sleep
+pgrep -fl sctd
+pkill -f sctd
+tail -f /var/log/daemon
+ssvi $(whence sctd)
+svi $(whence sctd)
+man sh
+man ksh
+man test
+svi $(whence sctd)
+history
+history -d 3029
+man history
+pgrep -fl sctd
+tail -f /var/log/daemon
+pstree | less
+less $(whence sctd)
+pkill -f sctd
+pstree | less
+pgrep -fl sctd
+pgrep -fl sleep
+svi $(whence sctd)
+pwd
+cp $(whence sctd)
+cp $(whence sctd) .
+man pkg_info
+doas pkg_add -u sct
+pkg_info sct
+doas pkg_add sct
+svi $(whence sctd)
+pgrep -fl sctd
+tail -f /var/log/daemon
+pgrep -fl sctd
+pgrep -fl sleep
+svi $(whence sctd)
+pkill -fl sctd
+pkill -f sctd
+svi $(whence sctd)
+pgrep -fl sctd
+pgrep -fl sctd sleep
+date
+pgrep -fl sctd sleep
+svi $(whence sctd)
+pgrep -fl sctd
+tail -f /var/log/daemon
+pkill -f sctd
+pgrep -fl sctd
+pgrep -fl sctd sleep
+svi $(whence sctd)
+pgrep -fl sctd sleep
+svi $(whence sctd)
+pgrep -fl sctd sleep
+svi $(whence sctd)
+pgrep -fl sctd sleep
+man logger
+pgrep -fl sctd sleep
+cat .profile
+ll /usr/local/share/isotop/bin/
+man kill
+kill -l
+svi $(whence sctd)
+cd Downloads/
+ll
+mc
+cd
+svi $(whence sctd)
+pgrep -fl sctd sleep
+pkill -f sctd sleep
+pgrep -fl sctd sleep
+svi $(whence sctd)
+sh -n /usr/local/bin/sctd 
+pgrep -fl sctd sleep
+cat /etc/installurl 
+man pkg_add
+man man
+man bash
+pgrep -fl sctd sleep
+kill -l
+man pkill
+pgrewp -fl sctd sleep
+pgrep -fl sctd sleep
+pgrep xidle
+doas reboot
+pgrep -fl chromium
+pgrep -fl chrome
+which web
+cat $(which web)
+pkill -f chrome
+svi $(whence sctd)
+man sh
+man ksh
+trap
+pgrep -fl sctd sleep
+pkill -f sctd
+pgrep -fl sctd sleep
+svi $(whence sctd)
+tail -f /var/log/daemon
+pgrep -fl sctd sleep
+svi $(whence sctd)
+pgrep -fl sctd sleep
+date
+pgrep -fl sctd sleep
+svi $(whence sctd)
+pgrep -fl sctd sleep
+date
+pgrep -fl sctd sleep
+date
+pgrep -fl sctd sleep
+date
+pgrep -fl sctd sleep
+svi $(whence sctd)
+man sh
+man ksh
+svi $(whence sctd)
+tail -f /var/log/daemon
+pgrep -fl sctd sleep
+date
+pgrep -fl sctd sleep
+date
+pgrep -fl sctd sleep
+man sh
+man test
+[ "$a" ] && echo a || echo b
+a=1
+[ "$a" ] && echo a || echo b
+sh
+[ "$a" ] && echo a || echo b
+a=2
+[ "$a" ] && echo a || echo b
+[ -n "$a" ] && echo a || echo b
+[ -n $a ] && echo a || echo b
+a=
+[ -n $a ] && echo a || echo b
+[ $a ]; echo $?
+a=1
+[ $a ]; echo $?
+[ $a ] ; echo $?
+a=
+[ $a ] ; echo $?
+ssvi $(whence sctd)
+svi $(whence sctd)
+pgrep -fl sctd sleep
+kill -TERM 38449
+pgrep -fl sctd sleep
+kill -TERM 4473
+pgrep -fl sctd sleep
+svi $(whence sctd)
+test $a; echo $?
+[ $a ]; echo $?
+a=1
+[ $a ]; echo $?
+pgrep -fl sctd sleep
+tail -f /var/log/daemon
+kill 68673
+pgrep -fl sctd sleep
+svi $(whence sctd)
+ksh -n $(whence sctd)
+pgrep -fl sctd sleep
+tail -f /var/log/daemon
+date
+pgrep -fl sctd sleep
+pgrep -fl sctd sleep\M^M
+pstree |less
+pgrep -fl sctd sleep\M^M
+ll /var/log
+doas less /var/log/secure
+doas less /var/log/messages
+pgrep -fl sctd sleep
+less /etc/mke2fs.conf 
+man bsd.mk
+man bsd.ports.mk
+man bsd.port.mk
+cal 02
+cal feb
+man cal
+cal -m feb
+pkg_info -Q fiche
+ll /tmp/.cache
+vi bin/chromium-cache.sh 
+chmod 0700 /tmp/.cache/chromium/
+date
+ll /tmp/.cache
+vi bin/chromium-cache.sh 
+ksn -n bin/chromium-cache.sh 
+ksh -n bin/chromium-cache.sh 
+bin/chromium-cache.sh save
+ll /tmp/.cache/iridium/
+ll .config/
+ll .cache/
+vi .cwmrc
+ll /tmp/.cache/iridium/
+ll /tmp/.cache/iridium/Default/
+vi bin/chromium-cache.sh 
+bin/chromium-cache.sh save
+ll .cache/
+du -sh /tmp/.cache/
+du -sh /tmp/.cache/*
+vi bin/chromium-cache.sh 
+rm -f {chromium,iridium}-cache.tar
+time bin/chromium-cache.sh save
+rm -rf /tmp/.cache/
+ll /tmp/.cache/
+rm -rf /tmp/.cache/*
+ll /tmp/.cache/*
+time bin/chromium-cache.sh restore
+ls -ld /tmp/.cache
+ls -ld /tmp/.cache/chromium/
+rm -rf /tmp/.cache/chromium/
+crontab -e
+date
+ll -R /tmp/.cache/
+doas -s
+ll .cache/
+rm -f .cache/{chromium,iridium}-cache.tar
+ll .cache/
+ll -d /tmp/.cache/
+ll -d /tmp/.cache/*
+du -sh /tmp/.cache/*
+vi bin/chromium-cache.sh 
+ll /tmp/.cache
+du -sh /tmp/.cache/*
+pstree
+top
+w
+uptime
+vmstat -w 1
+man vmstat
+systat memory
+systat mem
+man systt
+man systat
+systat malloc
+systat uwm
+systat uvm
+man swapctl 
+swapctl -lk
+swapctl -l
+swapctl -lh
+systat
+df -h
+swapctl -lk
+free
+less Backup/home/.cwmrc 
+cat /usr/local/share/isotop/data/isotop-help
+less Backup/home/.cwmrc 
+pgrep -fl xidle
+pstree |less
+grep xidle .cwmrc 
+grep xidle .xsession
+man xidle
+top 
+man top
+man 4 mem
+top
+pstree |less
+which iridium
+which chrome
+file /usr/local/bin/{chrome,iridium}
+duff -u /usr/local/bin/{chrome,iridium}
+diff -u /usr/local/bin/{chrome,iridium}
+top
+man uvm
+apropos uvm
+less /var/log/messages
+less /var/run/dmesg.boot 
+sysclt kern.version
+sysctl kern.version
+pstree |less
+man dhcpleasectl
+dhcpleasectl show interface
+man dhcpleasectl
+doas dhcpleasectl show interface
+doas dhcpleasectl show interface trunk0
+svi /etc/hostname.trunk0 
+doas reboot
+pstree |less
+doas dhcpleasectl show interface
+dhcpleasectl show interface
+cat /etc/hostname.trunk0 
+sysctl kern.version
+man pstree
+pstree -s dhcp
+dhcpleasectk show interface
+dhcpleasectl show interface
+less /var/log/messages
+less /var/log/daemon
+unwindctl 
+unwindctl status all
+unwindctl status autoconf
+unwindctl status
+unwindctl status memory
+less /etc/sysctl.conf 
+man pstree
+pstree -g 1
+pstree -g 2
+pstree -g 3
+pstree -w
+pstree -w |less
+man pstree
+pstree -w -u root |less
+\\top
+\\top -s 1
+ps waux |less
+man ps
+man pstat
+man top
+pgrep resolvd
+man resolvd
+rcctl get resolvd
+man resolvd
+man resolv.conf
+pfetch
+mc
+ranger
+exit
+man hostname.if
+man ifconfig
+neofetch
+mc
+xdg-mime query default text/html
+man xdg-mime
+cd Documents/
+ll
+ cd BSD\\ Virtual\\ Memory/
+ll
+xdg-mime query default text/htm
+xdg-mime query default text/html
+xdg-mime default chromium-browser.desktop text/htm
+xdg-mime query default text/htm
+which netsurf
+pkg_info netsurf
+pkg_info -L netsurf
+xdg-mime query default text/htm
+xdg-mime query default text/html
+ll
+grep -r web.archive .
+grep -r web.archive . | less
+video
+ll /dev/video
+ll /dev/video0
+doas chmod 660 /dev/video0
+video
+cat /etc/sysctl.conf 
+less /etc/examples/doas.conf 
+doas -s
+top
+sysctl ddb
+sysctl machdep
+sysctl hw.sensors
+rcctl get inetd
+less .cwmrc
+man netsurf
+netsurf-gtk3 
+netsurf-gtk3 &
+ls -li /bin/{,k}sh
+find /bin -inum 26025
+find /bin -inum 26025 -ls
+ll /bin/*sh
+cat /etc/shells
+doas -s
+doas pkg_add polybar
+pkg_info polybar
+which zip
+which unzip
+cd Downloads/
+ll
+zip -h
+unzip -h
+unzip -l polybar
+unzip -tl polybar
+unzip -tl polybar.zip 
+unzip -d ../scripts/ -o polybar.zip 
+unzip -d ../scripts/ -o polybar-modules.sh_.zip 
+cd ../scripts/
+ll
+less polybar
+less polybar-modules.sh 
+vi polybar-modules.sh 
+vi .cwmrc 
+which polybar
+cat scripts/polybar
+tset -
+st
+vim scripts/polybar-modules.sh 
+ksh -n scripts/polybar-modules.sh 
+vi .cwmrc 
+ll .fonts
+ll ~/.fonts
+..
+ll
+la
+la .local/
+la .local/share/
+la .local/share/fonts/
+ftp -o "~/.local/share/fonts/Iosevka-Medium-Complete-Mono.ttf" 'https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Iosevka/Medium/complete/Iosevka%20Term%20Medium%20Nerd%20Font%20Complete%20Mono.ttf?raw=true'
+la .local/share/fonts/
+ll -d .local/share/fonts/
+ftp -o "~/.local/share/fonts/Iosevka-Medium-Complete-Mono.ttf" 'https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Iosevka/Medium/complete/Iosevka%20Term%20Medium%20Nerd%20Font%20Complete%20Mono.ttf?raw=true'
+cp Downloads/Iosevka\\ Term\\ Medium\\ Nerd\\ Font\\ Complete\\ Mono.ttf /home/sergor/.local/share/fonts/
+ll -d .local/share/fonts/
+ll .local/share/fonts/
+mkdir -p ~/.config/polybar
+vi ~/.config/polybar/mockup
+vim ~/.config/polybar/mockup
+vi .xsession
+pgrep -fl termbar
+pkill -f termbar
+polybar -c ~/.config/polybar/mockup top &
+man polybar
+vi .xsession
+cat scripts/polybar
+scripts/polybar
+vi .config/polybar/mockup 
+scripts/polybar
+polybar -v
+date
+polybar -l debug -c ~/.config/polybar/mockup top &
+polybar -w
+polybar -l debug -c ~/.config/polybar/mockup -w
+polybar -l info -c ~/.config/polybar/mockup -w
+ll ~/.config/polybar/mockup  
+vim ~/.config/polybar/mockup  
+ll /usr/local/share/doc/polybar/config
+cp /usr/local/share/doc/polybar/config /home/sergor/.config/polybar/config
+less .config/polybar/config 
+polybar -l info -c ~/.config/polybar/mockup -w
+polybar -l trace -c ~/.config/polybar/mockup -w
+polybar -l trace -c ~/.config/polybar/mockup 
+polybar -l trace -c ~/.config/polybar/mockup top
+cat -vte .config/polybar/mockup 
+sed 's/\\ $//g' .config/polybar/mockup |cat -vte -
+sed -i 's/\\ $//g' .config/polybar/mockup 
+polybar -l trace -c ~/.config/polybar/mockup top
+vi .config/polybar/mockup 
+polybar -l trace -c ~/.config/polybar/mockup top
+vi .config/polybar/mockup 
+vi scripts/termbar 
+less .Xdefaults 
+q!
+less .Xresources 
+fc-cache -fv
+man fc-cache
+fc-list
+man fc-list
+polybar -l trace -c ~/.config/polybar/mockup top
+less scripts/termbar 
+vi scripts/polybar-modules.sh 
+ scripts/polybar-modules.sh datetime
+tail scripts/polybar-modules.sh 
+ scripts/polybar-modules.sh sensor
+ scripts/polybar-modules.sh volume
+less .config/polybar/config 
+vi scripts/polybar-modules.sh 
+ scripts/polybar-modules.sh battery
+ scripts/polybar-modules.sh datetime
+ scripts/polybar-modules.sh volume
+tail  scripts/polybar-modules.sh 
+tail -20  scripts/polybar-modules.sh 
+ scripts/polybar-modules.sh   kbdlayout
+ scripts/polybar-modules.sh   network
+grep termbar .Xresources 
+vim .config/polybar/mockup 
+polybar -l trace -c ~/.config/polybar/mockup top
+grep date scripts/termbar 
+grep date scripts/polybar-modules.sh 
+date '+%a %d %b %R'
+date '+%a. %e %b.  %H:%M'
+date '+%a. %e %b. %H:%M'
+date '+%a. %e %b. %R'
+date '+%a %d %b %R'
+polybar -l trace -c ~/.config/polybar/mockup top
+date '+%a %d %b %R'
+date '+%a. %e %b. %R'
+date '+%a %e %b %R'
+date '+%a %d %b %R'
+date '+%a %d %b %R\\n%a %e %b %R'
+man date
+man strftime
+date '+%a %d %b %R%n%a %e %b %R'
+vi scripts/polybar-modules.sh 
+polybar -l trace -c ~/.config/polybar/mockup top
+scripts/polybar
+jobs
+vi .xsession
+pgrep -fl sctd
+pgrep -fl sctd sleep
+pgrep -fl sctd
+pkill -f polybar
+vim .config/polybar/mockup 
+scripts/polybar
+nnn
+pwd
+echo NNN_COLORS='2222' >> ~/.kshrc
+# echo NNN_FCOLORS='0f0f020f0f0f0f0f0f0f0f0f' >> ~/.kshrc
+echo NNN_FCOLORS='0f0f020f0f0f0f0f0f0f0f0f' >> ~/.kshrc
+. .kshrc 
+nnn
+env
+set
+declare
+set |less
+mc
+cd .config/mc/
+ll
+grep -i xterm ini 
+vi ini 
+mc
+cd
+vi .Xresources 
+vi .cwmrc
+grep termbar .Xresources 
+less .config/polybar/mockup 
+vi scripts/polybar
+vi scripts/polybar-modules.sh 
+st
+vim scripts/polybar-modules.sh 
+vim .config/polybar/mockup 
+pgrep -fl polybar
+pkill -f polybar
+scripts/polybar
+pkill -f polybar
+vim .config/polybar/mockup 
+scripts/polybar
+pkill -f polybar
+vim .config/polybar/mockup 
+scripts/polybar
+pkill -f polybar
+vim .config/polybar/mockup 
+scripts/polybar
+vim .cwmrc
+pkill -f polybar
+vi .config/polybar/mockup 
+scripts/polybar
+pkill -f polybar
+vi .config/polybar/mockup 
+pkill -f polybar
+scripts/polybar
+pkill -f polybar
+vi .config/polybar/mockup 
+scripts/polybar
+pkill -f polybar
+vi .config/polybar/mockup 
+less .config/polybar/config 
+pkill -f polybar
+scripts/polybar
+pgrep -fl polybar
+man pkill 
+pgrep -fx polybar
+man pkill 
+pkill -fx polybar
+pkill -x polybar
+scripts/polybar
+pkill -x polybar
+scripts/polybar
+pkill -x polybar
+scripts/polybar
+pkill -x polybar
+scripts/polybar
+pkill -x polybar
+scripts/polybar
+pkill -x polybar
+scripts/polybar
+man rcorder
+pgrep -fl polybar
+pkill -x polybar
+scripts/polybar
+vi .config/polybar/mockup 
+pkill -x polybar
+scripts/polybar
+cat scripts/polybar
+vim .xsession
+pkill -x sctd
+pgrep -fl sctd
+pgrep -fl sctd sleep
+vim .config/polybar/mockup 
+fc-match
+man fc-match
+man fc-list
+fc-list
+fc-list | grep Hack
+fc-list | grep Hack | grep -i regular
+fc-list | grep Nerd | grep -i regular
+pkill -x polybar
+scripts/polybar
+less .Xresources 
+vim .config/polybar/mockup 
+fc-list | grep Iosevka
+pkill -x polybar
+scripts/polybar
+tail -f /var/log/daemon
+xranrd
+xrandr 
+randr -q | grep " connected" | cut -d ' ' -f1
+xrandr -q | grep " connected" | cut -d ' ' -f1
+vim .config/polybar/mockup 
+pgrep -fl sctd sleep
+tail -f /var/log/daemon
+polybar -vvv
+pkill -x polybar
+polybar -l warn -c ~/.config/polybar/mockup top &
+polybar -l info -c ~/.config/polybar/mockup top &
+vim .config/polybar/mockup 
+ll
+la
+ll .xsess*
+ll .xsession-errors 
+less .xsession-errors 
+scripts/polybar
+vim .config/polybar/mockup 
+cat .xsession-errors 
+grep NET_CURRENT_DESKTOP
+grep NET_CURRENT_DESKTOP scripts/termbar 
+vim scripts/termbar 
+vim scripts/polybar-modules.sh 
+man xprop
+xprop -root
+xprop -root 32c
+xprop -root 32c '\\t$0' _NET_CURRENT_DESKTOP
+xprop -root 32c '\\t$0' _NET_CURRENT_DESKTOP | cut -f 2
+cat .xsession-errors 
+xprop -root 32c '\\t$0' _NET_ACTIVE_WINDOW | cut -f 2
+xwinifo -id 20971532
+xwininfo -id 20971532
+vi            .xsession
+cat .xsession-errors 
+cat scripts/polybar
+echo $USER
+vi .xsession
+pgrep -fl sctd sleep
+pkill -u USER -x sctd
+pkill -u $USER -x sctd
+pgrep -fl sctd sleep
+man cwm
+vi .xsession
+pkill -u $USER -x sctd
+pgrep -fl sctd sleep
+pkill -u $USER -x sctd -x sleep
+pgrep -fl sctd sleep
+cat .xsession-errors 
+vi .xsession
+cat .xsession-errors 
+pgrep -fl polybar
+cat .xsession-errors 
+grep xrdb .xsession
+vi .Xresources 
+pgrep -fl polybar
+pgrep -fl sctd sleep
+pkill -u $USER -x sctd -x sleep
+pgrep -fl sctd sleep
+cat .xsession-errors 
+pgrep -fl polybar
+pgrep -fl cwm
+xprop -root | grep _NET
+pgrep -fl polybar
+scripts/polybar
+pgrep -fl polybar
+cat .xsession-errors 
+vi .xsession
+cat .xsession-errors 
+cat /etc/mpd.conf 
+grep bind /etc/mpd.conf 
+grep -vE '^(#|$)' /etc/mpd.conf 
+ll
+mkdir Music
+vi .xsession
+pgrep -fl sctd sleep
+tail -f .xsession-errors 
+scripts/polybar
+vi .cwmrc
+man cwm
+tail -f .xsession-errors 
+ifconfig em0
+ifconfig iwn0
+grep iee80211 scripts/polybar-modules.sh 
+grep iee80211 scripts/polybar
+less scripts/polybar-modules.sh 
+ifconfig iwn0 |awk '/iee80211:/{print}'
+ifconfig iwn0 |awk '/ieee80211:/ {print}'
+ifconfig iwn0 |awk '/ieee80211:/ {print $3, $8}'
+vim scripts/polybar-modules.sh 
+vim .cwmrc
+pgrep -u $USER -x iridium
+top
+q1
+netstat -a | grep 6600
+netstat -an | grep 6600
+which lsof
+sockstat
+fstat | grep 6060
+doas fstat | grep 6060
+netstat -an | grep 6600
+ man fstat
+netstat -A
+doas -s
+curl wttr.in/Zhukovsky
+st
+tmux
+top
+less /var/log/maillog
+mailx
+crontab -l
+crontab -l -u root
+doas crontab -l -u root
+crontab -e
+chromium-cache.sh save
+nnn
+man mupdf
+pstree -s chrome
+man top
+top -1b -d2
+man top
+top -1 -d2
+top -1b 
+top -1b  -d2
+top -1b
+pstree -s telegram
+pstree -s chrome
+top -1b 
+pgrep -fl telegram
+pgrep -fl teleg
+pstree | less
+top -1b
+man rdist
+man rdistd
+ll /etc/examples/
+ll /etc/examples/inetd.conf 
+cat /etc/examples/inetd.conf 
+man rdist
+man most
+man rdist
+grep -ir root /etc/X11/xenodm/
+grep root /etc/X11/xenodm/Xresources.isotop 
+grep -ir root /etc/X11/xenodm/
+grep -i root /etc/X11/xenodm/Xresources.isotop 
+pstree -s chrome
+les .Xresources 
+less .Xresources 
+grep xlock .Xresources 
+grep xlock Backup/home/.Xresources 
+\M-Q\M^L\M-Q\M^D\M-Q\M^B \M-Q\M^G\M-P\M-4\M-Q\M^I\M-Q\M^A\M-P\M-;
+man xlock
+man slock
+grep slock .xsession
+disklabel sd0
+man disklabel
+disklabel -h sd0
+disklabel sd0
+man disklabel
+disklabel -p g sd0
+disklabel -pg sd0
+disklabel -pg sd1
+ll /tmp
+rm /tmp/scrot-2021030*
+ll /tmp
+ll -a /tmp
+ll -a /tmp/.cache/
+ls -ld /tmp
+disklabel -pg sd1
+man slock
+slock
+man slock
+doas pkg_add xautolock
+man xautolock
+man xidle
+man xautolock
+man xscreensaver-no-splash
+apropos xscreensaver
+man xscreensaver
+man XScreenSaver
+pkg_info -Q syncthing
+pkg_info syncthing
+pkg_info fortune
+pkg_info -Q fortune
+fortune
+man fortune
+man slock
+slock fortune
+which fortune
+which tetris
+tetris
+less /etc/sysctl.conf 
+login
+man slock
+man xautolock
+man xlock
+grep sndioctl .cwmrc
+top
+vi .cwmrc
+pstree -s chrome
+tail -f /var/log/messages
+tail -f /var/log/daemon
+pgrep -u $USER -x sctd
+pgrep -u $USER -f sctd
+pkill -x sctd
+pgrep -u $USER -f sctd
+pkill -f sctd
+pgrep -u $USER -f sctd
+ll -t Downloads/
+ll -t Downloads/ |head
+ll /tmp
+find . -name Packeges.gz
+ll -t Downloads/ |head
+mc
+top
+less Downloads/ubuntu-20.04.2-live-server-amd64.list 
+rm Downloads/ubuntu-20.04-beta-live-server-amd64.list 
+rm -rf Downloads/Index\\ of\\ _releases_20.04.1*
+less Downloads/ubuntu-20.04-live-server-amd64.list 
+top
+sysctl kern.version
+tail -f /var/log/daemon
+pgrep -fl sctd
+pkg_info -Q chromium
+pkg_info -Q chrome
+pkg_info chrome
+pkg_info chromium
+pkg_info -L chromium
+pkg_info -L chromium |less
+dmesg
+date
+man pkg_check
+doas pkg_check
+dmesg | grep pledge
+doas grep -r pledge /var/log
+less .cwmrc
+sysctl net.tcp.mssdflt
+sysctl net.inet.tcp.mssdflt
+sysctl net.inet.tcp.max-mss
+grep mss /etc/sysctl.conf 
+sysctl -a | max-mss
+sysctl -a | grep max-mss
+grep mss /etc/pf.conf 
+doas grep mss /etc/pf.conf 
+dmesg | grep intel
+man fw_update 
+fw_update -iv
+ll Downloads/ubu*
+diff -u Downloads/ubuntu-20.04{.1}-live-server-amd64.list
+diff -u Downloads/ubuntu-20.04{,.1}-live-server-amd64.list
+diff -u Downloads/ubuntu-20.04{,.1}-live-server-amd64.list |less
+vimdiff Downloads/ubuntu-20.04{,.1}-live-server-amd64.list 
+doas sysupgrade 
+pstree -s dhc
+pstree -s dhcp
+pstree -s dh
+pstree | less
+host -t mx mail.ru
+man ifconfig
+man dhcpleased
+cat /etc/resolv.conf
+unwindctl status all
+unwindctl 
+unwindctl status
+unwindctl status memory
+unwindctl status all
+unwindctl status autoconf
+unwindctl 
+unwindctl log
+tail -f /var/log/daemon
+unwindctl log verbose
+doas unwindctl log verbose
+host -t mx mail.ru
+host -t mx mail.ru 192.168.1.1
+ping 192.168.1
+ping 192.168.1.1
+ifconfig
+tail -f /var/log/messages
+ifconfig -a | grep inet
+vi /etc/hostname.trunk0 
+doas -s
+tail -f /var/log/daemon
+top
+sysctl hw.sensors
+man resolvd
+rcctl get resolvd
+fw_update -ivvv
+doas fw_update -ivvv
+ll -d /var/db/*firmware*
+ll -d /var/db/pkg/*firmware*
+top
+grep xidle .xsession
+uname -r
+sysctl kern.version
+df -h
+top
+cat /etc/rc.conf
+cat /etc/rc.conf.local 
+grep resolvd /etc/rc.conf
+man resolvd
+cat /etc/resolv.conf
+cat /etc/hostname.trunk0 
+cat /etc/unwind.conf 
+cat /etc/dhclient.conf 
+doas -s
+cat /etc/resolv.conf
+man pstree
+pstree -s resolv -s dhcp
+pstree -s resolvd
+pstree -s resolvd,dhcp
+pstree -s resolvd
+pstree -s dhcp
+cat /etc/hostname.trunk0 
+less .cwmrc
+pstree
+top
+doas sysmerge
+doas pkg_add -Uu
+ll /var/net-snmp/*
+ll /var/spool/lock/sane/*
+ll /var/log/mpd
+doas ls -l /var/log/mpd
+doas ls -l /var/db/minidlna/*
+doas ls -l /var/log/minidlna/*
+doas ls -l /etc/cups/*.conf.O /var/log/cups
+cat /etc/cups/printers.conf
+doas cat /etc/cups/printers.conf
+ll /var/cache/cups
+doas ls -l /var/cache/cups
+doas ls -l /var/spool/cups
+man sysclean
+doas sysclean
+rcctl get apmd
+rcctl get unwind
+pstree
+cat /etc/resolv.conf
+unwindctl status all
+unwindctl status
+unwindctl status autoconf
+unwindctl status memory
+man resolvd 
+ping mxs.mail.ru
+less /var/log/maillog
+top
+ll /tmp/cache/
+ll /tmp/.cache
+ipcs
+ipcs -a
+ps -O ssize
+doas -s
+doas fstat
+doas fstat |less
+svi /etc/X11/xorg.conf.d/intel.conf 
+mount
+ps -O ssize
+ps -O ssiz
+man ps
+ps -O ssiz,rss
+doas ps -O ssiz,rss
+fstat|awk '{print $2":pid "$3}'|sort|uniq -c|sort
+fstat|awk '{print $2":pid "$3}'|sort|uniq -c|sort -rn |head
+svi /etc/sysctl.conf 
+vi 1.txt
+man 2 sysctl
+svi /etc/sysctl.conf 
+vi 1.txt 
+sysctl net.inet.tcp.ackonpush
+sysctl net.inet.tcp.ecn
+sysctl net.inet.tcp.rfc1323
+sysctl net.inet.tcp.rfc3390
+sysctl net.inet.udp.recvspace
+sysctl net.inet.udp.sendspace
+sysctl kern.maxclusters
+sysctl vm.swapencrypt.enable
+sysctl net.inet.tcp.sack
+sysctl net.inet.ip.ttl
+sysctl net.inet.ip.ifq.maxlen
+svi /etc/sysctl.conf 
+less scripts/polybar-modules.sh 
+less scripts/polybar
+less .config/polybar/mockup 
+man polybar
+man polybar.conf
+man polybar
+pkg_info polybar
+less .config/polybar/mockup 
+xprop -root _NET_DESKTOP_NAMES
+less scripts/polybar-modules.sh 
+less scripts/polybar
+vi .config/polybar/mockup 
+xprop -root _NET_DESKTOP_NAMES
+cat -vte .config/polybar/mockup 
+vi .config/polybar/mockup 
+nnn
+man sysmerge
+doas syspatch
+sync; sync
+doas -s
+ll Downloads/
+pgrep -fl sct
+less /var/log/messages
+less /var/log/daemon
+less /var/run/dmesg.boot 
+less /var/log/Xorg.0.log
+less scripts/polybar-modules.sh 
+less .config/polybar/mockup 
+date
+less .config/polybar/config 
+vi .config/polybar/mockup 
+svi /etc/rc.conf.local 
+grep dbus .xsession
+vi .xsession
+pgrep -fl dbus
+pkill -fx dbus
+pgrep -fl dbus
+doas shutdown -r now
+pgrep -fl dbus
+cat /etc/rc.conf.local 
+grep -r dbus .
+pstree -s dbus
+grep dbus .profile .kshrc .xsession
+pstree | less
+find . -depth 1 -type f
+less .xsession
+ll .start 
+rm .start
+pgrep -fl dbus
+less /var/log/messages
+ls -la
+less .xsession-errors 
+grep poly .xsession
+cat scripts/polybar
+rcctl get messagebus
+doas -s
+man dbus-daemon
+vi .xsession
+env | grep DBUS
+pgrep -fl dbus
+ll .config
+grep -r dbus .config
+ll /tmp/.cache
+who -b
+who
+w
+sysctl kern.boottime
+man mail
+mail -r sgoryachev75@gmail.com -s 'test message' gors@mail.ru
+less /var/log/maillog
+svi /etc/mail/secrets 
+mailq
+doas mailq
+man smtpctl
+doas smtpctl shedule all
+doas smtpctl schedule all
+tail -f /var/log/maillog
+vi scripts/polybar
+vi scripts/polybar-modules.sh 
+vim scripts/polybar-modules.sh 
+cp .config/polybar/mockup{,2}
+vim .config/polybar/mockup2
+vi .xsession
+grep setxkb Backup/home/.xsession 
+grep -C4 setxkb Backup/home/.xsession 
+vi .xsession
+vi scripts/polybar
+cat .xsession-errors 
+vi .config/polybar/mockup2
+vi .cwmrc
+setxkbmap -layout
+cat scripts/switchkb.sh 
+grep xkb scripts/polybar-modules.sh 
+setxkb -query
+setxkbmap -query
+vi .xsession
+>.xsession-errors 
+setxkbmap -query
+tail -f .xsession-errors 
+grep dbus .xsession
+pgrep -fl dbus
+vi .xsession
+st
+vim scripts/polybar-modules.sh 
+st
+msview scripts/polybar-modules.sh 
+mcview scripts/polybar-modules.sh 
+mcedit .config/polybar/mockup2
+setxkbmap -query
+vi .config/polybar/mockup2
+scripts/polybar-modules.sh battery
+scripts/polybar-modules.sh kbdlayout
+tail -f .xsession-errors 
+vi .xsession
+setxkbmap -query
+scripts/switchkb.sh 
+cat scripts/switchkb.sh 
+setxkbmap -query | awk '/^layout:/ { print $2 }')"
+setxkbmap -query | awk '/^layout:/ { print $2 }'
+setxkbmap -query
+pgrep -fl setxkb
+vi .xsession
+tail -f .xsession-errors 
+pgrep -fl dbus
+setxkbmap -query
+vi .cwmrc
+doas syspatch
+doas pkg_add -s
+doas pkg_add -su
+pkg_info colord
+ll /usr/local/share/isotop/data/packages 
+grep color /usr/local/share/isotop/data/packages 
+pkg_info colord
+man pkg_info
+doas sysupgrade
+ping cdn.openbsd.org
+sysctl kern.version
+doas sysupgrade
+cat /etc/installurl 
+less .cwmrc
+doas syspatch
+man reboot
+man shutdown
+doas shutdwon -f now
+doas shutdown -f now
+systat
+top
+ll
+history | less
+su -
+history | less
+history
+env | grep HIST
+ll -a
+less .ksh_hist 
+less .hist 
+cat > gtod.c
+make gtod
+R=3; for X in `jot ${R}`; do time ./gtod; done
+doas -s
+set | less
+env
+echo $HISTFILE
+echo $HISTSIZE
+history
+less .profile
+pwd
+jostory
+history
+tail .ksh_hist 
+man ksh
+vi .kshrc
+cat .ssh/known_hosts 
+man env
+man set
+man ksh
+less .profile
+set; echo $?
+telnet mx.yandex.ru 25
+grep dshot .cwmrc 
+doas syspatch
+pgrep chromiumo
+pgrep chromium
+pgrep chrome
+pkill -fx chrome
+pgrep chrome
+pkill -x chrome
+pgrep chrome
+pkill -x chrome
+pgrep chrome
+vi .xsession
+vi .Xdefaults 
+vi .Xresources 
+doas syspatch
+doas pkg_add -u
+doas -s
+doas syspatch
+reboot
+doas reboot
+doas -s
+host -t mx devoncredit.ru
+telnet mail1.devoncredit.ru. 25
+telnet sec.devoncredit.ru. 25
+smtpctl spf walk nspk.ru
+smtpctl spf walk < nspk.ru
+man smtpctl
+doas -s
+ll
+rm -rf ttt
+dig -t TXT google.com
+dig -t TXT google.com | grep spf1
+dig -t TXT google.com | grep spf1 | smtpctl spf walk -
+dig -t TXT google.com | grep spf1 | smtpctl spf walk
+man smtpctl
+man sysmerge
+jot 50 4 50
+man jot
+ll /etc/sensorsd
+ll /etc/examples/sensorsd.conf 
+less /etc/examples/sensorsd.conf 
+doas
+doas -s
+vmstat -zi
+ll pkg-readmes/
+ll pkg-readmes/cups
+less pkg-readmes/cups
+usbdevs -v
+man slock
+grep lock .xsession
+man xidle
+grep lock .cwmrc 
+grep slock .cwmrc 
+man ntpd
+vi .xsession
+crontab -l
+cat bin/checkbatt 
+ll /var/db
+ll /var/db/ntpd.drift 
+less /var/db/ntpd.drift 
+ll /var/db
+less /var/db/dhcpleased/trunk0 
+ll /var/db
+cat /var/db/dhcpleased/trunk0 
+cat /var/db/dhclient.leases.em0 
+cat /var/db/dhclient.leases.trunk0 
+ll /var/db
+ll /var/db/dhclient.leases.*
+doas rm /var/db/dhclient.leases.*
+ll /var/db/dhclient.leases.*
+ll /var/db/dhcpleased/
+pstree -s dhc
+pstree -s resolv
+pstree
+man syslogd
+doas syspatch
+top
+cat /etc/X11/xorg.conf.d/intel.conf 
+man 4 intel
+grep intel /var/log/Xorg.0.log | less
+man 4 modesetting
+dmesg | grep intel
+doas syspatch
+doas pkg_add -u
+for P in $( pkg_info -a | awk '{print $1}' )
+do
+echo $P $( pkg_info -R $P | grep colord ) | awk '/foo/ {print $1}'
+done
+echo $P $( pkg_info -R $P | grep foomatic-db ) | awk '/foo/ {print $1}'
+for P in $( pkg_info -a | awk '{print $1}' ); do echo $P $( pkg_info -R $P | grep foomatic-db ) | awk '/foo/ {print $1}'; done
+doas pkg_delete colord
+doas -s
+sysctl net.inet
+sysctl net.inet | grep space
+man 2 sysctl
+svi /etc/sysctl.conf 
+doas -s
+grep telegram .cwmrc
+top
+systat
+man 2 sysctl
+sysctl net.inet
+sysctl net.inet |grep space
+sysctl net.inet6 |grep space
+svi /etc/sysctl.conf 
+ll /tmp
+rm /tmp/scrot-20210615220*
+ll /tmp
+ll /tmp/.cache/
+dmesg
+tail -30f /var/log/messages
+doas -s
+systat
+alias
+doas syspatch
+df -h
+doas -s
+tail -f /var/log/messages
+tail -f /var/log/messages /var/log/daemon
+doas syspatch
+crontab -l
+bin/chromium-cache.sh save
+doas pkg_add -u
+doas -s
+grep library /etc/rc.conf
+grep library_aslr /etc/rc
+grep -C2 library_aslr /etc/rc
+grep -C20 library_aslr /etc/rc
+less /etc/rc
+grep library /etc/rc.conf
+less /etc/rc
+doas syspatch
+ifconfig -a
+doas syspatch
+doas pkg_add -u
+top
+grep xlock .Xresources 
+systat
+pftop
+pkg_info -Q pftop
+doas pkg_add pftop
+pftop
+doas pftop
+nnn
+systat
+less .cwmrc
+doas syspatch
+ranger
+doas pkg_add -u
+systat
+man systat
+pkg_info -Q symon
+pkg_info symon
+grep sergor .cwmrc
+doas pkg_add checkrestart
+doas syspatch
+checkrestart
+man checkrestart
+checkrestart -v
+pstree -s unwind
+doas rcctl restart unwind
+checkrestart -v
+pstree -s unwind
+doas pkg_add -u
+top
+man top
+checkrestart 
+pkg_info -Q xsecurelock
+dbus-monitor --session "type=signal,interface=org.gnome.ScreenSaver"
+man dbus-monitor
+grep slock .xsession
+cat scripts/switchkb.sh 
+man xidle
+grep slock .xsession
+grep slock .cwmrc 
+man xlock
+man slock
+vi .cwmrc
+tail -f .xsession-errors 
+vi .xsession
+tail -f .xsession-errors 
+pstree -s xidle
+pgrep -fl xidle
+pgrep -flw xidle
+ps waux | grep xidle
+grep slock .cwmrc 
+man slock
+grep setxkb scripts/switchkb.sh 
+tail -f .xsession-errors 
+vi .cwmrc
+vi .xsession
+grep slock .xsession .cwmrc
+grep resize .cwmrc 
+grep slock .xsession .cwmrc
+cat
+vi .cwmrc
+doas -s
+ll
+ll .cache/
+ll .cache/mozilla/
+ll .cache/mozilla/firefox/
+mount
+cat bin/chromium-cache.sh 
+ls -ls .cache/mozilla/
+vi bin/chromium-cache.sh 
+man mv 
+cd .cache/
+mv mozilla/ /tmp/.cache/
+ls -ld /tmp/.cache
+doas mv mozilla/ /tmp/.cache/
+vi bin/chromium-cache.sh 
+vi ~/bin/chromium-cache.sh 
+~/bin/chromium-cache.sh save
+ll
+vi ~/bin/chromium-cache.sh 
+~/bin/chromium-cache.sh restore
+ll
+ll /tmp/.cache/
+ll /tmp/.cache/mozilla/
+ll /tmp/.cache/mozilla/firefox/
+ll /tmp/.cache/mozilla/firefox/t8aaqttv.default-default-1610792324435/
+top
+mv bin/{chromium,browser}-cache.sh 
+crontab -e
+svi /etc/rc.shutdown 
+browser-cache.sh save
+dmesg|grep ^cpu
+sysctl -a | grep -i cpu
+less /var/run/dmesg.boot 
+exit
+man fw_update
+fw_update -i
+sysctl -a | less
+pcidump 
+doas pcidump 
+man pcidump
+doas pcidump -v
+man fw_update
+fw_update -iv
+dmesg|grep ^cpu
+tmux
+doas pkg_add -u
+checkrestart 
+grep xidle .xsession
+less .xsession
+exit
+exi
+exit
+grep -r weather .
+grep -r weather bin/ scripts/
+/usr/local/bin/ansiweather -l zhukovsky -a false -s false -i false -w false -h false -p false 2>/dev/null
+alias
+weather 
+less .cwmrc
+weather 
+/usr/local/bin/ansiweather -l zhukovsky -a false -s false -i false -w false -h false -p false 2>/dev/null
+grep window .cwmrc
+man cwmrc
+grep M-4 .cwmrc
+grep M-f4 .cwmrc
+grep M-F4 .cwmrc
+man cwmrc
+vi .cwmrc
+less .xsession-errors 
+ll .xsession*
+grep window-lower
+grep window-lower .cwmrc
+grep M-2 .cwmrc
+vi .cwmrc
+man task
+man builtin
+man ksh
+task
+systat
+doas syspatch
+doas pkg_add -u
+tail -f /var/log/messages
+grep battery /var/log/messages
+df -h  /tmp
+telnet relay03.nspk.ru 25
+telnet relay04.nspk.ru 25
+tail -f /var/log/messages
+ll Medias/
+ll Medias/Mass\\ Storage/
+ll Medias/Mass\\ Storage/System\\ Volume\\ Information/
+ll Medias/Mass\\ Storage/WindowsServices/
+ll Medias/Mass\\ Storage/_/
+tail -f /var/log/messages
+ll Medias/Mass\\ Storage/
+ll Medias/Mass\\ Storage/WindowsServices/
+tar zcvf Downloads/fleshka.tgz Medias/Mass\\ Storage/
+ll Downloads/
+ll Downloads/fleshka.tgz 
+ll /tmp
+ll -t /tmp
+ll -t /tmp/scrot-202110121921.png 
+cp /tmp/scrot-202110121921.png  Medias/Mass\\ Storage/
+r
+alias r
+man fc
+man builtin
+man ksh
+man fc
+which fc
+man ksh
+pwd
+fc -l 1
+alias history
+fc -l -r 1
+fc -e -r 1
+fc -e -r 726
+fc -l
+fc -e 3722
+fc -e pwd
+echo $EDITOR
+echo $FCEDIT
+doas syspatch
+man sysupgrade
+ll -t /tmp/scrot-2021*
+cp /tmp/scrot-202110121921.png Downloads/
+history
+fc -e vi 3722
+pwd
+fc -e 3722
+fc -e vim 3722
+pwd
+doas sysupgrade -n
+ll /bsd*
+doas shutdown -r now
+doas -s
+ifconfig -a
+pstree -s dhcp
+pstree -s resolv
+cat /etc/resolv.conf
+cat /etc/unwind.conf 
+doas unwindctl
+doas unwindctl status
+top
+less .xsession-errors 
+ll /etc/cups/*.conf.0
+ll /var/log/cups/
+cat /etc/cups/printers.conf
+doas cat /etc/cups/printers.conf
+doas diff -u /etc/cups/printers.conf{.0,}
+ll /etc/cups
+doas diff -u /etc/cups/printers.conf*
+ll /etc/cups/*.conf.0
+ll /etc/cups/printers.conf.O /etc/cups/subscriptions.conf.O 
+ll /etc/cups
+doas cat /etc/cups/subscriptions.conf
+doas cat /etc/cups/subscriptions.conf.0
+doas cat /etc/cups/subscriptions.conf.O 
+ll /etc/cups/*.conf.O
+doas rm /etc/cups/*.conf.O
+ll /var/cache/cups/
+doas ls -l /var/cache/cups/
+doas ls -l /var/spool/cups/
+cat /etc/machine-id 
+man sysmerge
+cp /etc/X11/xenodm/Xsetup_0 .
+cp /etc/X11/xenodm/xenodm-config .
+man ttys
+man getty
+man gettytab
+man termcap
+svi /etc/X11/xenodm/Xsetup_0 
+whence sxpm
+cat .xsession-errors 
+uname -a
+sysctl kern.version
+chrome &
+ll .cache/chromium/
+ll .cache/chromium*
+cat /etc/rc.conf.local 
+cat /etc/rc.local
+/home/sergor/bin/chromium-cache.sh restore
+ksh -x /home/sergor/bin/chromium-cache.sh restore
+ll /home/sergor/bin/chromium-cache.sh restore
+ll /home/sergor/bin
+svi /etc/rc.local
+ll /home/sergor/bin/browser-cache.sh
+/home/sergor/bin/browser-cache.sh restore
+ll .cache/
+svi /etc/rc.shutdown 
+grep -i whatsapp .cwmrc
+ll
+ll -t
+cat 1.txt 
+cat xterm.txt 
+man fw_update 
+fw_update -n
+man fw_update 
+fw_update -nvvv
+grep -i iridium .cwmrc
+pkg_info firefox
+pkg_info chrome
+pkg_info chromium
+vi .kshrc
+. .kshrc
+pwd
+fuck
+doas pwd
+history
+vi Github.pwd.txt
+mkdir dotfiles/
+ll dotfiles/
+cat dotfiles/README.md 
+mv dotfiles/ gonzalo-dotfiles/
+mkdir dotfiles
+cd dotfiles
+mkdir cwm
+mc

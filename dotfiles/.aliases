@@ -1,0 +1,34 @@
+alias ll='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
+alias lls='ls -s'
+
+alias ..='cd ..'
+alias ...='cd ...'
+alias mkdir='mkdir -p'
+alias df='df -h'
+alias du='du -ch'
+
+alias c='clear'
+alias less='less --quiet'
+
+alias weather='curl http://wttr.in/Zhukovsky'
+command -v neomutt > /dev/null && alias mutt='neomutt'
+alias svim='doas vim'
+alias svi='doas vi'
+alias mc='LANG= mc -a'
+alias which='command -v'
+
+# better top
+alias top='top -s .5'
+# better systat
+alias systat='systat -hs1'
+# upload on clbin
+alias clbin='curl -v -F "clbin=<-" https://clbin.com'
+
+# OpenBSD
+alias upports='cd /usr/ports && cvs -q up -Pd'
+alias fetchsrc='cd /usr/src && cvs -q up -Pd -A'
+alias fetchport='cd /usr/ports && cvs -q up -Pd -A'
+alias fetchxenocara='cd /usr/xenocara && cvs -q up -Pd -A'
+
